@@ -13,7 +13,7 @@ class m_reportes extends Model
 
     public function scopeTecnicos($query, $nombre_tecnico) {
     	if ($nombre_tecnico) {
-    		return $query->Where('nombre_tecnico','LIKE',"%$nombre_tecnico%");
+    		return $query->Where('nombre_tecnico','LIKE'."%$nombre_tecnico%");
     	}
     }
 
@@ -21,7 +21,7 @@ class m_reportes extends Model
 
     public function scopeAreas($query, $nombre_area) {
     	if ($nombre_area) {
-    		return $query->where('nombre_area','LIKE',"%$nombre_area%");
+    		return $query->where('nombre_area','LIKE'."%$nombre_area%");
     	}
     }
 

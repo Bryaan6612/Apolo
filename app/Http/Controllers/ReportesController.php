@@ -16,6 +16,7 @@ class ReportesController extends Controller
     
 
         public function listar(Request $request){
+
             $nombre_tecnico = $request ->get('buscarpor');
             $nombre_area = $request ->get('buscarporArea');
             //return view('pages.reportes');
@@ -23,12 +24,13 @@ class ReportesController extends Controller
             $reportes = m_reportes::all();      
             foreach($reportes as $reporte){            
                 try{
-                    $reporte->nombre_area($reporte->nombre_area);
-                    $reporte->nombre_cliente($reporte->nombre_cliente);
-                    $reporte->nombre_tecnico ($reporte->nombre_tecnico);
-                    $reporte->reporte ($reporte->reporte);
-                    $reporte->estado($reporte->estado);
-                    $reporte->feyhora($reporte->feyhora);           
+                    $reporte->nombre_area = $reporte->nombre_area;
+                    $reporte->nombre_cliente = $reporte->nombre_cliente;
+                    $reporte->nombre_tecnico = $reporte->nombre_tecnico;
+                    $reporte->reporte = $reporte->reporte;
+                    $reporte->estado = $reporte->estado;
+                    $reporte->feyhora = $reporte->feyhora;           
+                  
                     }catch ( Exception $e) {
                           
                     }
@@ -53,12 +55,12 @@ class ReportesController extends Controller
             $ruta_archivo = $request->file('imagen')->store('imagenes_apolo');
             
             $reportes->imagen = $ruta_archivo;
-            $reportes->nombre_area = Crypt::encryptString  ($request ->nombre_area);
-            $reportes->nombre_cliente = Crypt::encryptString ($request ->nombre_cliente);
-            $reportes->nombre_tecnico = Crypt::encryptString ($request ->nombre_tecnico);
-            $reportes->reporte = Crypt::encryptString($request ->reporte);
-            $reportes->estado = Crypt::encryptString($request ->estado);
-            $reportes->feyhora ($request ->feyhora);
+            $reportes->nombre_area = $request -> nombre_area;
+            $reportes->nombre_cliente = $request -> nombre_cliente;
+            $reportes->nombre_tecnico = $request -> nombre_tecnico;
+            $reportes->reporte = $request -> reporte;
+            $reportes->estado = $request -> estado;
+            $reportes->feyhora = $request -> feyhora;
             Log::notice("Se Registro Nuevo Reporte");
     
             $reportes->save();

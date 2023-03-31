@@ -34,12 +34,14 @@
     
         <nav class="navbar navbar-light justify-content-between">
           <form class="form-inline" action="{{route('reportes.listar')}}" method="GET">
-            <input name="buscarpor"  class="form-control mr-sm-2" type="search" placeholder="Buscar por nombre" aria-label="Search">
+            <input name="buscarporNombre"  class="form-control mr-sm-2" type="search" placeholder="Buscar por nombre" aria-label="Search">
             <input name="buscarporArea" class="form-control mr-sm-2" type="search" placeholder="Buscar por area" aria-label="Search">
+            <input name="buscarporFecha" class="form-control mr-sm-2" type="search" placeholder="Buscar por Fecha y Hora" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
           </form>
         </nav>
 
+        
 
           <reportes-component />
           

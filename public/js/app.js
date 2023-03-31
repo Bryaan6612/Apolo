@@ -6352,11 +6352,19 @@ __webpack_require__.r(__webpack_exports__);
     obtener_reportes: function obtener_reportes() {
       var _this2 = this;
 
-      axios.get('api/reportes/lista').then(function (response) {
+      var nombreTecnico = document.getElementsByName("buscarporNombre")[0].value,
+          nombreArea = document.getElementsByName("buscarporArea")[0].value;
+      axios.get('api/reportes/lista', {
+        params: {
+          buscarporNombre: nombreTecnico,
+          buscarporArea: nombreArea
+        }
+      }).then(function (response) {
         console.log("Todo Ok");
         _this2.reportes = response.data;
       })["catch"](function (error) {
         console.log("Ocurrio un Error");
+        console.log(error);
       });
     },
     guardar_reportes: function guardar_reportes() {
@@ -30456,7 +30464,7 @@ var render = function () {
           },
         },
       },
-      [_vm._v("\n  Registrar cliente nuevo\n")]
+      [_vm._v("\r\n  Registrar cliente nuevo\r\n")]
     ),
     _vm._v(" "),
     _c(

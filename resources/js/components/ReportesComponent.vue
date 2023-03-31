@@ -296,8 +296,7 @@ import { title } from 'process'
                 file:'',
                 url: '',
                 rows: 100,
-                 currentPage: 1,
-                
+                currentPage: 1,
             }
         }
         ,mounted() {
@@ -331,8 +330,16 @@ import { title } from 'process'
                 this.file = e.target.files[0];
                 this.url = URL.createObjectURL(this.file);
             },
+            
             obtener_reportes(){
-                axios.get('api/reportes/lista')
+                let nombreTecnico = document.getElementsByName("buscarporNombre")[0].value,
+                    nombreArea = document.getElementsByName("buscarporArea")[0].value;
+
+                axios.get('api/reportes/lista',  { params: { 
+                    buscarporNombre: nombreTecnico,
+                    buscarporArea: nombreArea,
+                  } 
+                })
                 .then((response) => {
                     console.log("Todo Ok")
                     this.reportes = response.data
@@ -340,6 +347,7 @@ import { title } from 'process'
                 
                 .catch((error) => {
                     console.log("Ocurrio un Error")
+                    console.log(error)
                 })
             },
             guardar_reportes(){

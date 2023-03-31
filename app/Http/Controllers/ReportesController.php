@@ -60,8 +60,8 @@ class ReportesController extends Controller
         if(empty($reportes)) {
             return ['msg' => 'empty'];
         }else{
+            //return $reportes;
             return $reportes;
-            //return view('pages.reportes')->with("reportes", $reportes);
 
         }
 
@@ -73,7 +73,7 @@ class ReportesController extends Controller
     public function vista(){
         
         return view('pages.reportes');
-        
+
     }
 
     public function guardar(Request $request){

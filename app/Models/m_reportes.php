@@ -1,6 +1,5 @@
 <?php
 
-declare (string_types=1);
 
 namespace App\Models;
 

@@ -2,7 +2,9 @@
 namespace Database\Seeders;
 
 use Illuminate\Support\Facades\DB;
+use app\Models\m_reportes;
 use Illuminate\Database\Seeder;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,5 +16,6 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([UsersTableSeeder::class]);
+        m_reportes::factory(50)->create();
     }
 }

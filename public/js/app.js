@@ -6309,6 +6309,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
@@ -6353,11 +6363,13 @@ __webpack_require__.r(__webpack_exports__);
       var _this2 = this;
 
       var nombreTecnico = document.getElementsByName("buscarporNombre")[0].value,
-          nombreArea = document.getElementsByName("buscarporArea")[0].value;
+          nombreArea = document.getElementsByName("buscarporArea")[0].value,
+          Fecha = document.getElementsByName("buscarporFecha")[0].value;
       axios.get('api/reportes/lista', {
         params: {
           buscarporNombre: nombreTecnico,
-          buscarporArea: nombreArea
+          buscarporArea: nombreArea,
+          buscarporFecha: Fecha
         }
       }).then(function (response) {
         console.log("Todo Ok");
@@ -6367,8 +6379,18 @@ __webpack_require__.r(__webpack_exports__);
         console.log(error);
       });
     },
-    guardar_reportes: function guardar_reportes() {
+    obtener_reportes2: function obtener_reportes2() {
       var _this3 = this;
+
+      axios.get('api/reportes/lista').then(function (response) {
+        console.log("Todo Ok");
+        _this3.reportes = response.data;
+      })["catch"](function (error) {
+        console.log("Ocurrio un Error");
+      });
+    },
+    guardar_reportes: function guardar_reportes() {
+      var _this4 = this;
 
       var formData = new FormData();
       formData.append("imagen", this.file); //formData.append("id", this.reporte.id)
@@ -6382,15 +6404,15 @@ __webpack_require__.r(__webpack_exports__);
       axios.post('api/reportes/guardar', formData).then(function (response) {
         console.log("Datos Guardados");
 
-        _this3.abrir_cierra_modal();
+        _this4.abrir_cierra_modal();
 
-        _this3.obtener_reportes();
+        _this4.obtener_reportes();
       })["catch"](function (error) {
         console.log("Ocurrio un Error Guardando");
       });
     },
     guardar_r: function guardar_r() {
-      var _this4 = this;
+      var _this5 = this;
 
       var formData = new FormData();
       formData.append("imagen", this.file);
@@ -6404,20 +6426,20 @@ __webpack_require__.r(__webpack_exports__);
       axios.post('api/reportes/guardar', formData).then(function (response) {
         console.log("Datos Guardados");
 
-        _this4.abrir_c_modal();
+        _this5.abrir_c_modal();
 
-        _this4.obtener_reportes();
+        _this5.obtener_reportes();
       })["catch"](function (error) {
         console.log("Ocurrio un Error Guardando");
       });
     },
     eliminar_reporte: function eliminar_reporte(reporte) {
-      var _this5 = this;
+      var _this6 = this;
 
       axios.post('api/reportes/eliminar', reporte).then(function (response) {
         console.log("Reporte Eliminado"); // this.abrir_cierra_modal();
 
-        _this5.obtener_reportes();
+        _this6.obtener_reportes();
       })["catch"](function (error) {
         console.log("Ocurrio un Error Guardando");
       });
@@ -30464,7 +30486,7 @@ var render = function () {
           },
         },
       },
-      [_vm._v("\r\n  Registrar cliente nuevo\r\n")]
+      [_vm._v("\n  Registrar cliente nuevo\n")]
     ),
     _vm._v(" "),
     _c(
@@ -31205,9 +31227,73 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-right" }, [
+      _c("div", { staticClass: "row justify-content" }, [
         _c("div", { staticClass: "col-md-14" }, [
           _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "nav",
+            { staticClass: "navbar navbar-light justify-content-between" },
+            [
+              _c("div", { staticClass: "form-inline" }, [
+                _c("input", {
+                  staticClass: "form-control mr-sm-2",
+                  attrs: {
+                    name: "buscarporNombre",
+                    type: "search",
+                    placeholder: "Buscar por nombre",
+                    "aria-label": "Search",
+                  },
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-control mr-sm-2",
+                  attrs: {
+                    name: "buscarporArea",
+                    type: "search",
+                    placeholder: "Buscar por area",
+                    "aria-label": "Search",
+                  },
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-control mr-sm-2",
+                  attrs: {
+                    name: "buscarporFecha",
+                    type: "search",
+                    placeholder: "Buscar por Fecha y Hora",
+                    "aria-label": "Search",
+                  },
+                }),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-success my-2 my-sm-0",
+                    on: {
+                      click: function ($event) {
+                        return _vm.obtener_reportes()
+                      },
+                    },
+                  },
+                  [_vm._v("Buscar")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-warning my-2 my-sm-0",
+                    on: {
+                      click: function ($event) {
+                        return _vm.obtener_reportes2()
+                      },
+                    },
+                  },
+                  [_vm._v("Regresar")]
+                ),
+              ]),
+            ]
+          ),
           _vm._v(" "),
           _c(
             "table",

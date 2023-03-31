@@ -2,7 +2,7 @@
 <div>
 
     <div class="container">
-        <div class="row justify-content-right">
+        <div class="row justify-content">
             <div class="col-md-14">
               <div class="container py-2">
                
@@ -16,6 +16,16 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
           </form>
         </nav>-->
+        <nav class="navbar navbar-light justify-content-between">
+          <div class="form-inline">
+            <input name="buscarporNombre"  class="form-control mr-sm-2" type="search" placeholder="Buscar por nombre" aria-label="Search">
+            <input name="buscarporArea" class="form-control mr-sm-2" type="search" placeholder="Buscar por area" aria-label="Search">
+            <input name="buscarporFecha" class="form-control mr-sm-2" type="search" placeholder="Buscar por Fecha y Hora" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" v-on:click="obtener_reportes()">Buscar</button>
+            <button class="btn btn-outline-warning my-2 my-sm-0" v-on:click="obtener_reportes2()">Regresar</button>
+          </div>
+        </nav>
+
 
 
           <table class="table table-striped" >
@@ -333,11 +343,13 @@ import { title } from 'process'
             
             obtener_reportes(){
                 let nombreTecnico = document.getElementsByName("buscarporNombre")[0].value,
-                    nombreArea = document.getElementsByName("buscarporArea")[0].value;
+                    nombreArea = document.getElementsByName("buscarporArea")[0].value,
+                    Fecha = document.getElementsByName("buscarporFecha")[0].value;
 
                 axios.get('api/reportes/lista',  { params: { 
                     buscarporNombre: nombreTecnico,
                     buscarporArea: nombreArea,
+                    buscarporFecha: Fecha,
                   } 
                 })
                 .then((response) => {
@@ -348,6 +360,17 @@ import { title } from 'process'
                 .catch((error) => {
                     console.log("Ocurrio un Error")
                     console.log(error)
+                })
+            },
+            obtener_reportes2(){
+                axios.get('api/reportes/lista')
+                .then((response) => {
+                    console.log("Todo Ok")
+                    this.reportes = response.data
+                })
+                
+                .catch((error) => {
+                    console.log("Ocurrio un Error")
                 })
             },
             guardar_reportes(){

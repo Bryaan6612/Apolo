@@ -15,7 +15,7 @@ class UpdatereportesTable extends Migration
     {
 
         Schema::table('reportes',function(Blueprint $table){
-          $table->string('imagen')->nullable();
+         // $table->string('imagen')->nullable();
         });
         }
       
@@ -28,7 +28,7 @@ class UpdatereportesTable extends Migration
       public function down()
       {
          Schema::table('reportes', function(Blueprint $table){
-              $table->dropColumn('imagen');
+             // $table->dropColumn('imagen');
          });
       }
       }

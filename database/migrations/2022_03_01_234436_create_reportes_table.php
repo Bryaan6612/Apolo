@@ -22,6 +22,7 @@ class CreateReportesTable extends Migration
                 $table->string("reporte");
                 $table->string("estado");
                 $table->string("feyhora");
+                $table->string("feyhorafinal");
                 $table->timestamps();
             });
         }

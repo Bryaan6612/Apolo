@@ -6319,6 +6319,46 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
@@ -6362,14 +6402,16 @@ __webpack_require__.r(__webpack_exports__);
     obtener_reportes: function obtener_reportes() {
       var _this2 = this;
 
-      var nombreTecnico = document.getElementsByName("buscarporNombre")[0].value,
+      var nombreCliente = document.getElementsByName("buscarporNombre")[0].value,
           nombreArea = document.getElementsByName("buscarporArea")[0].value,
-          Fecha = document.getElementsByName("buscarporFecha")[0].value;
+          Fecha = document.getElementsByName("buscarporFecha")[0].value,
+          FechaF = document.getElementsByName("buscarporFechaF")[0].value;
       axios.get('api/reportes/lista', {
         params: {
-          buscarporNombre: nombreTecnico,
+          buscarporNombre: nombreCliente,
           buscarporArea: nombreArea,
-          buscarporFecha: Fecha
+          buscarporFecha: Fecha,
+          buscarporFechaF: FechaF
         }
       }).then(function (response) {
         console.log("Todo Ok");
@@ -6392,8 +6434,7 @@ __webpack_require__.r(__webpack_exports__);
     guardar_reportes: function guardar_reportes() {
       var _this4 = this;
 
-      var formData = new FormData();
-      formData.append("imagen", this.file); //formData.append("id", this.reporte.id)
+      var formData = new FormData(); //formData.append("id", this.reporte.id)
 
       formData.append("nombre_area", this.reporte.nombre_area);
       formData.append("nombre_cliente", this.reporte.nombre_cliente);
@@ -6401,6 +6442,7 @@ __webpack_require__.r(__webpack_exports__);
       formData.append("reporte", this.reporte.reporte);
       formData.append("feyhora", this.reporte.feyhora);
       formData.append("estado", this.reporte.estado);
+      formData.append("feyhorafinal", this.reporte.feyhorafinal);
       axios.post('api/reportes/guardar', formData).then(function (response) {
         console.log("Datos Guardados");
 
@@ -6415,7 +6457,6 @@ __webpack_require__.r(__webpack_exports__);
       var _this5 = this;
 
       var formData = new FormData();
-      formData.append("imagen", this.file);
       formData.append("id", this.reporte.id);
       formData.append("nombre_area", this.reporte.nombre_area);
       formData.append("nombre_cliente", this.reporte.nombre_cliente);
@@ -6423,6 +6464,7 @@ __webpack_require__.r(__webpack_exports__);
       formData.append("reporte", this.reporte.reporte);
       formData.append("feyhora", this.reporte.feyhora);
       formData.append("estado", this.reporte.estado);
+      formData.append("feyhorafinal", this.reporte.feyhorafinal);
       axios.post('api/reportes/guardar', formData).then(function (response) {
         console.log("Datos Guardados");
 
@@ -31226,7 +31268,7 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "container-fluid" }, [
       _c("div", { staticClass: "row justify-content" }, [
         _c("div", { staticClass: "col-md-14" }, [
           _vm._m(0),
@@ -31241,17 +31283,17 @@ var render = function () {
                   attrs: {
                     name: "buscarporNombre",
                     type: "search",
-                    placeholder: "Buscar por nombre",
+                    placeholder: "Buscar por Cliente",
                     "aria-label": "Search",
                   },
                 }),
                 _vm._v(" "),
                 _c("input", {
-                  staticClass: "form-control mr-sm-2",
+                  staticClass: "form-control mr-sm-1",
                   attrs: {
                     name: "buscarporArea",
                     type: "search",
-                    placeholder: "Buscar por area",
+                    placeholder: "Buscar por Area",
                     "aria-label": "Search",
                   },
                 }),
@@ -31261,7 +31303,17 @@ var render = function () {
                   attrs: {
                     name: "buscarporFecha",
                     type: "search",
-                    placeholder: "Buscar por Fecha y Hora",
+                    placeholder: "Buscar por Fecha Inicial",
+                    "aria-label": "Search",
+                  },
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-control mr-sm-2",
+                  attrs: {
+                    name: "buscarporFechaF",
+                    type: "search",
+                    placeholder: "Buscar por Fecha Final",
                     "aria-label": "Search",
                   },
                 }),
@@ -31297,7 +31349,7 @@ var render = function () {
           _vm._v(" "),
           _c(
             "table",
-            { staticClass: "table table-striped" },
+            { staticClass: "table table-responsive sm-0" },
             [
               _vm._m(1),
               _vm._v(" "),
@@ -31352,16 +31404,15 @@ var render = function () {
                       ),
                     ]),
                     _vm._v(" "),
-                    _c("td", { staticClass: "budget" }, [
-                      reporte.imagen
-                        ? _c("img", {
-                            attrs: {
-                              src: reporte.imagen.replace("/imagenes_apolo"),
-                              width: "200px",
-                            },
-                          })
-                        : _vm._e(),
+                    _c("td", [
+                      _vm._v(
+                        "\r\n                      " +
+                          _vm._s(reporte.feyhorafinal) +
+                          "\r\n                    "
+                      ),
                     ]),
+                    _vm._v(" "),
+                    _c("td", { staticClass: "budget" }),
                     _vm._v(" "),
                     _c("td", { staticClass: "text-right" }, [
                       _c("div", { staticClass: "dropdown" }, [
@@ -31414,17 +31465,23 @@ var render = function () {
     ]),
     _vm._v(" "),
     _c(
-      "button",
-      {
-        staticClass: "btn btn-dark",
-        attrs: { type: "button" },
-        on: {
-          click: function ($event) {
-            return _vm.nuevo_reporte()
+      "div",
+      { staticClass: "d-grid gap-2 d-md-flex justify-content-md-end" },
+      [
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-dark me-md-2",
+            attrs: { type: "button" },
+            on: {
+              click: function ($event) {
+                return _vm.nuevo_reporte()
+              },
+            },
           },
-        },
-      },
-      [_vm._v("\r\n  Nuevo Reporte\r\n")]
+          [_vm._v("\r\n  Nuevo Reporte\r\n")]
+        ),
+      ]
     ),
     _vm._v(" "),
     _c(
@@ -31475,20 +31532,7 @@ var render = function () {
               _vm._v(" "),
               _c("div", { staticClass: "modal-body" }, [
                 _c("form", [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("input", {
-                        ref: "upload",
-                        attrs: {
-                          type: "file",
-                          name: "file-upload",
-                          multiple: "",
-                          accept: "image/jpeg, image/png",
-                        },
-                        on: { change: _vm.asignaArchivo },
-                      }),
-                    ]),
-                  ]),
+                  _vm._m(3),
                   _vm._v(" "),
                   _c("div", { staticClass: "col-md-6" }, [
                     _c("img", { attrs: { src: _vm.url, width: "150px" } }),
@@ -31566,8 +31610,48 @@ var render = function () {
                               _vm._v("Obras Publicas"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Proteccion" } }, [
-                              _vm._v("Poteccion Civil"),
+                            _c("option", { attrs: { value: "Cultura" } }, [
+                              _vm._v("Cultura"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Biblioteca" } }, [
+                              _vm._v("Biblioteca"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "BibliotecaD" } }, [
+                              _vm._v("Biblioteca Digital"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "ServiciosP" } }, [
+                              _vm._v("Servicios Publicos"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "AguaPDA" } }, [
+                              _vm._v("Agua Potable, Drenaje Y Alcantarillado"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Bomberos" } }, [
+                              _vm._v("Bomberos"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "UIPPE" } }, [
+                              _vm._v("UIPPE"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "ServiciosP" } }, [
+                              _vm._v("Servicios Publicos"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Oficialia" } }, [
+                              _vm._v("Oficialia Calificadora"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Regiduria" } }, [
+                              _vm._v("Regiduria"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Sindicatura" } }, [
+                              _vm._v("Sindicatura"),
                             ]),
                           ]
                         ),
@@ -31660,6 +31744,10 @@ var render = function () {
                             _vm._v(" "),
                             _c("option", { attrs: { value: "Christian" } }, [
                               _vm._v("Christian"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Juan" } }, [
+                              _vm._v("Juan"),
                             ]),
                           ]
                         ),
@@ -31758,7 +31846,7 @@ var render = function () {
                     _vm._v(" "),
                     _c("div", { staticClass: "col-md-6" }, [
                       _c("div", { staticClass: "form-group" }, [
-                        _c("h4", [_vm._v("FECHA Y HORA ")]),
+                        _c("h4", [_vm._v("FECHA INICIAL ")]),
                         _vm._v(" "),
                         _c("input", {
                           directives: [
@@ -31779,6 +31867,37 @@ var render = function () {
                               _vm.$set(
                                 _vm.reporte,
                                 "feyhora",
+                                $event.target.value
+                              )
+                            },
+                          },
+                        }),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("h4", [_vm._v("FECHA FINAL")]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.reporte.feyhorafinal,
+                              expression: "reporte.feyhorafinal",
+                            },
+                          ],
+                          attrs: { type: "datetime-local", id: "feyhorafinal" },
+                          domProps: { value: _vm.reporte.feyhorafinal },
+                          on: {
+                            input: function ($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.reporte,
+                                "feyhorafinal",
                                 $event.target.value
                               )
                             },
@@ -31869,24 +31988,7 @@ var render = function () {
               _vm._v(" "),
               _c("div", { staticClass: "modal-body" }, [
                 _c("form", [
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col-md-6" }, [
-                      _c("input", {
-                        ref: "upload",
-                        attrs: {
-                          type: "file",
-                          name: "file-upload",
-                          multiple: "",
-                          accept: "image/jpeg, image/png, image/jpg",
-                        },
-                        on: { change: _vm.asignaArchivo },
-                      }),
-                    ]),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "col-md-6" }, [
-                    _c("img", { attrs: { src: _vm.url, width: "150px" } }),
-                  ]),
+                  _vm._m(4),
                   _vm._v(" "),
                   _c("div", { staticClass: "row" }, [
                     _c("div", { staticClass: "col-md-6" }, [
@@ -31960,8 +32062,48 @@ var render = function () {
                               _vm._v("Obras Publicas"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Proteccion" } }, [
-                              _vm._v("Poteccion Civil"),
+                            _c("option", { attrs: { value: "Cultura" } }, [
+                              _vm._v("Cultura"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Biblioteca" } }, [
+                              _vm._v("Biblioteca"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "BibliotecaD" } }, [
+                              _vm._v("Biblioteca Digital"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "ServiciosP" } }, [
+                              _vm._v("Servicios Publicos"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "AguaPDA" } }, [
+                              _vm._v("Agua Potable, Drenaje Y Alcantarillado"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Bomberos" } }, [
+                              _vm._v("Bomberos"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "UIPPE" } }, [
+                              _vm._v("UIPPE"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "ServiciosP" } }, [
+                              _vm._v("Servicios Publicos"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Oficialia" } }, [
+                              _vm._v("Oficialia Calificadora"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Regiduria" } }, [
+                              _vm._v("Regiduria"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Sindicatura" } }, [
+                              _vm._v("Sindicatura"),
                             ]),
                           ]
                         ),
@@ -32152,7 +32294,7 @@ var render = function () {
                     _vm._v(" "),
                     _c("div", { staticClass: "col-md-6" }, [
                       _c("div", { staticClass: "form-group" }, [
-                        _c("h4", [_vm._v("FECHA Y HORA ")]),
+                        _c("h4", [_vm._v("FECHA INICIAL ")]),
                         _vm._v(" "),
                         _c("input", {
                           directives: [
@@ -32173,6 +32315,37 @@ var render = function () {
                               _vm.$set(
                                 _vm.reporte,
                                 "feyhora",
+                                $event.target.value
+                              )
+                            },
+                          },
+                        }),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-6" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("h4", [_vm._v("FECHA FINAL")]),
+                        _vm._v(" "),
+                        _c("input", {
+                          directives: [
+                            {
+                              name: "model",
+                              rawName: "v-model",
+                              value: _vm.reporte.feyhorafinal,
+                              expression: "reporte.feyhorafinal",
+                            },
+                          ],
+                          attrs: { type: "datetime-local", id: "feyhorafinal" },
+                          domProps: { value: _vm.reporte.feyhorafinal },
+                          on: {
+                            input: function ($event) {
+                              if ($event.target.composing) {
+                                return
+                              }
+                              _vm.$set(
+                                _vm.reporte,
+                                "feyhorafinal",
                                 $event.target.value
                               )
                             },
@@ -32243,13 +32416,11 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("th", { attrs: { scope: "col" } }, [_vm._v("Reporte/Observaciones")]),
       _vm._v(" "),
-      _c("th", { attrs: { scope: "col" } }, [
-        _vm._v("Fecha y Hora del Reporte"),
-      ]),
+      _c("th", { attrs: { scope: "col" } }, [_vm._v("Fecha Inicial")]),
       _vm._v(" "),
       _c("th", { attrs: { scope: "col" } }, [_vm._v("Estado")]),
       _vm._v(" "),
-      _c("th", { attrs: { scope: "col" } }, [_vm._v("Imagen")]),
+      _c("th", { attrs: { scope: "col" } }, [_vm._v("Fecha Final")]),
       _vm._v(" "),
       _c("th"),
     ])
@@ -32272,6 +32443,22 @@ var staticRenderFns = [
       },
       [_c("i", { staticClass: "fas fa-ellipsis-v" })]
     )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-6" }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-6" }),
+    ])
   },
 ]
 render._withStripped = true

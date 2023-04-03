@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Crypt;
-use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Exception;
 use App\Models\m_reportes;
@@ -20,16 +18,20 @@ class ReportesController extends Controller
     public function listar(Request $request)
     {
 
-        $nombre_tecnico = $request ->get('buscarporNombre');
+        $nombre_cliente = $request ->get('buscarporNombre');
         $nombre_area = $request ->get('buscarporArea');
         $feyhora = $request ->get('buscarporFecha');
+        $feyhorafinal = $request ->get('buscarporFechaF');
+
 
         $criteria = [];
         
-        if(!is_null($nombre_tecnico)) $criteria[] = ['nombre_tecnico', 'LIKE', '%'.$nombre_tecnico.'%'];
+        if(!is_null($nombre_cliente)) $criteria[] = ['nombre_cliente', 'LIKE', '%'.$nombre_cliente.'%'];
         if(!is_null($nombre_area)) $criteria[] = ['nombre_area', 'LIKE', '%'.$nombre_area.'%'];
         //Se agrego un nuevo campo en el blade y en la consulta para buscar por fecha y hora. 
         if(!is_null($feyhora)) $criteria[] = ['feyhora', 'LIKE', '%'.$feyhora.'%'];
+        if(!is_null($feyhorafinal)) $criteria[] = ['feyhorafinal', 'LIKE', '%'.$feyhorafinal.'%'];
+
 
         //return $criteria;
 
@@ -39,8 +41,6 @@ class ReportesController extends Controller
         //$reportes = m_reportes::where('nombre_tecnico', 'LIKE', '%'.$nombre_tecnico.'%')->get();
         //\DB::enableQueryLog();
         $reportes = m_reportes::where($criteria)->get();
-        //dd(\DB::getQueryLog());
-        
        /* foreach($reportes as $reporte){            
             try{
                 $reporte->nombre_area = $reporte->nombre_area;
@@ -77,20 +77,25 @@ class ReportesController extends Controller
     }
 
     public function guardar(Request $request){
+
         if($request->id !=0)
+
         $reportes = m_reportes::find($request->id);
+
         else    
         $reportes =new m_reportes(); 
         
-        $ruta_archivo = $request->file('imagen')->store('imagenes_apolo');
+        //$ruta_archivo = $request->file('imagen')->store('imagenes_apolo');
         
-        $reportes->imagen = $ruta_archivo;
+        
+        //$reportes->imagen = $ruta_archivo;
         $reportes->nombre_area = $request -> nombre_area;
         $reportes->nombre_cliente = $request -> nombre_cliente;
         $reportes->nombre_tecnico = $request -> nombre_tecnico;
         $reportes->reporte = $request -> reporte;
         $reportes->estado = $request -> estado;
         $reportes->feyhora = $request -> feyhora;
+        $reportes->feyhorafinal = $request -> feyhorafinal;
         Log::notice("Se Registro Nuevo Reporte");
 
         $reportes->save();
@@ -103,7 +108,7 @@ class ReportesController extends Controller
         $full_path = Storage::path($path);
         $base64 = base64_encode(Storage::get($path));
         $image_data = 'data:'.mime_content_type($full_path) . ';base64,' . $base64;
-        return '<img src="'. $image_data .'">';
+        return '<img src=C:\xampp\htdocs\laravel\Apolo2\app_prueba\storage\app\imagenes_apolo"'. $image_data .'">';
     
     }
     public function eliminar(Request $request){

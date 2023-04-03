@@ -1,7 +1,7 @@
 <template>
 <div>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content">
             <div class="col-md-14">
               <div class="container py-2">
@@ -9,18 +9,13 @@
                 <ul id="showlist" tabindex='1' class="list-group"></ul>
                              
           </div>
-          <!----<nav class="navbar navbar-light justify-content-between">
-          <form class="form-inline">
-            <input id-="buscarpor" name="buscarpor" class="form-control mr-sm-2" type="search" placeholder="Buscar por nombre" aria-label="Search">
-            <input id-="buscarporArea" name="buscarporArea" class="form-control mr-sm-2" type="search" placeholder="Buscar por area" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-          </form>
-        </nav>-->
+       
         <nav class="navbar navbar-light justify-content-between">
           <div class="form-inline">
-            <input name="buscarporNombre"  class="form-control mr-sm-2" type="search" placeholder="Buscar por nombre" aria-label="Search">
-            <input name="buscarporArea" class="form-control mr-sm-2" type="search" placeholder="Buscar por area" aria-label="Search">
-            <input name="buscarporFecha" class="form-control mr-sm-2" type="search" placeholder="Buscar por Fecha y Hora" aria-label="Search">
+            <input name="buscarporNombre"  class="form-control mr-sm-2" type="search" placeholder="Buscar por Cliente" aria-label="Search">
+            <input name="buscarporArea" class="form-control mr-sm-1" type="search" placeholder="Buscar por Area" aria-label="Search">
+            <input name="buscarporFecha" class="form-control mr-sm-2" type="search" placeholder="Buscar por Fecha Inicial" aria-label="Search">
+            <input name="buscarporFechaF" class="form-control mr-sm-2" type="search" placeholder="Buscar por Fecha Final" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" v-on:click="obtener_reportes()">Buscar</button>
             <button class="btn btn-outline-warning my-2 my-sm-0" v-on:click="obtener_reportes2()">Regresar</button>
           </div>
@@ -28,7 +23,7 @@
 
 
 
-          <table class="table table-striped" >
+          <table class="table table-responsive sm-0" >
                           
                 <!--<thead class="thead-dark"> -->
                   <tr>
@@ -37,9 +32,9 @@
                     <th scope="col">Nombre del Cliente</th>
                     <th scope="col">Nombre del Técnico que Resolvio</th>
                     <th scope="col">Reporte/Observaciones</th>
-                    <th scope="col">Fecha y Hora del Reporte</th>
+                    <th scope="col">Fecha Inicial</th>
                     <th scope="col">Estado</th>
-                   <th scope="col">Imagen</th>
+                    <th scope="col">Fecha Final</th>
                     <th></th>
                       
                   </tr>
@@ -64,10 +59,13 @@
                     <td>
                     {{reporte.estado}}
                     </td>
+                    <td>
+                      {{ reporte.feyhorafinal }}
+                    </td>
                     <td class="budget">  
-                     <!---<img src="{{assets('public/images'.'/'.$reportes -> imagen)}}" alt="" width="100" class="img-thumbnail img-fluid">-->   
-                       <!--<img class="card-img-top" v-bind:src="'/' + reporte.imagen">-->
-                      <img v-if="reporte.imagen" :src="reporte.imagen.replace('/imagenes_apolo')" width="200px" />
+                     <!---<img src="{{assets('public/images'.'/'.$reportes -> imagen)}}" alt="" width="100" class="img-thumbnail img-fluid">  
+                       <img class="card-img-top" v-bind:src="'/' + reporte.imagen">
+                      <img v-if="reporte.imagen" :src="reporte.imagen.replace('/imagenes_apolo')" width="200px" />-->
                      
                       </td>
                    <td class="text-right">
@@ -92,9 +90,11 @@
             </div>
        
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-dark" v-on:click="nuevo_reporte()">
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+<button type="button" class="btn btn-dark me-md-2" v-on:click="nuevo_reporte()">
   Nuevo Reporte
 </button>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -110,14 +110,19 @@
           <form>
             <div class="row">         
                 <div class="col-md-6">
-                  <input ref="upload"
+                 <!----<input ref="upload"
                                 type="file"
                                 name="file-upload"
                                 multiple=""
-                                accept="image/jpeg, image/png"
+                                accept="image/jpeg, image/png, image/jpg"
                                 @change="asignaArchivo">
                 </div>
        </div>
+                <div class="col-md-6">
+                  <img :src='url' width="150px">
+                </div>-->
+                </div>
+                </div>
                 <div class="col-md-6">
                   <img :src='url' width="150px">
                 </div>
@@ -133,7 +138,17 @@
                       <option value="SeguridadP">Seguridad publica</option>
                       <option value="Presidencia">Presidencia</option>
                       <option value="ObrasP">Obras Publicas</option>
-                      <option value="Proteccion">Poteccion Civil</option>
+                      <option value="Cultura">Cultura</option>
+                      <option value="Biblioteca">Biblioteca</option>
+                      <option value="BibliotecaD">Biblioteca Digital</option>
+                      <option value="ServiciosP">Servicios Publicos</option>
+                      <option value="AguaPDA">Agua Potable, Drenaje Y Alcantarillado</option>
+                      <option value="Bomberos">Bomberos</option>
+                      <option value="UIPPE">UIPPE</option>
+                      <option value="ServiciosP">Servicios Publicos</option>
+                      <option value="Oficialia">Oficialia Calificadora</option>
+                      <option value="Regiduria">Regiduria</option>
+                      <option value="Sindicatura">Sindicatura</option>
 
                     </select>
                 </div>
@@ -154,6 +169,7 @@
                       <option value="Alberto">Alberto</option>
                       <option value="Gonzalo">Gonzalo</option>
                       <option value="Christian">Christian</option>
+                      <option value="Juan">Juan</option>
                   </select>
                 </div>
                 </div>
@@ -177,8 +193,14 @@
                 </div>
                 <div class="col-md-6">
                 <div class="form-group">
-                  <h4>FECHA Y HORA </h4>
+                  <h4>FECHA INICIAL </h4>
                   <input type="datetime-local" v-model="reporte.feyhora" id="feyhora">
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="form-group">
+                  <h4>FECHA FINAL</h4>
+                  <input type="datetime-local" v-model="reporte.feyhorafinal" id="feyhorafinal">
                 </div>
                 </div>
             </div>
@@ -207,7 +229,7 @@
           <form>
             <div class="row">         
                 <div class="col-md-6">
-                  <input ref="upload"
+                 <!----<input ref="upload"
                                 type="file"
                                 name="file-upload"
                                 multiple=""
@@ -217,6 +239,8 @@
        </div>
                 <div class="col-md-6">
                   <img :src='url' width="150px">
+                </div>-->
+                </div>
                 </div>
                 
                 <div class="row">         
@@ -230,7 +254,17 @@
                       <option value="SeguridadP">Seguridad publica</option>
                       <option value="Presidencia">Presidencia</option>
                       <option value="ObrasP">Obras Publicas</option>
-                      <option value="Proteccion">Poteccion Civil</option>
+                      <option value="Cultura">Cultura</option>
+                      <option value="Biblioteca">Biblioteca</option>
+                      <option value="BibliotecaD">Biblioteca Digital</option>
+                      <option value="ServiciosP">Servicios Publicos</option>
+                      <option value="AguaPDA">Agua Potable, Drenaje Y Alcantarillado</option>
+                      <option value="Bomberos">Bomberos</option>
+                      <option value="UIPPE">UIPPE</option>
+                      <option value="ServiciosP">Servicios Publicos</option>
+                      <option value="Oficialia">Oficialia Calificadora</option>
+                      <option value="Regiduria">Regiduria</option>
+                      <option value="Sindicatura">Sindicatura</option>
 
                     </select>
                 </div>
@@ -273,8 +307,14 @@
                 </div>
                 <div class="col-md-6">
                 <div class="form-group">
-                  <h4>FECHA Y HORA </h4>
+                  <h4>FECHA INICIAL </h4>
                   <input type="datetime-local" v-model="reporte.feyhora" id="feyhora">
+                </div>
+                </div>
+                <div class="col-md-6">
+                <div class="form-group">
+                  <h4>FECHA FINAL</h4>
+                  <input type="datetime-local" v-model="reporte.feyhorafinal" id="feyhorafinal">
                 </div>
                 </div>
             </div>
@@ -342,14 +382,18 @@ import { title } from 'process'
             },
             
             obtener_reportes(){
-                let nombreTecnico = document.getElementsByName("buscarporNombre")[0].value,
+                let nombreCliente = document.getElementsByName("buscarporNombre")[0].value,
                     nombreArea = document.getElementsByName("buscarporArea")[0].value,
-                    Fecha = document.getElementsByName("buscarporFecha")[0].value;
+                    Fecha = document.getElementsByName("buscarporFecha")[0].value,
+                    FechaF = document.getElementsByName("buscarporFechaF")[0].value;
+
+
 
                 axios.get('api/reportes/lista',  { params: { 
-                    buscarporNombre: nombreTecnico,
+                    buscarporNombre: nombreCliente,
                     buscarporArea: nombreArea,
                     buscarporFecha: Fecha,
+                    buscarporFechaF: FechaF,
                   } 
                 })
                 .then((response) => {
@@ -375,7 +419,6 @@ import { title } from 'process'
             },
             guardar_reportes(){
                  var formData = new FormData()
-                  formData.append("imagen", this.file)
 
                   //formData.append("id", this.reporte.id)
                   formData.append("nombre_area", this.reporte.nombre_area)
@@ -384,6 +427,7 @@ import { title } from 'process'
                   formData.append("reporte", this.reporte.reporte)
                   formData.append("feyhora", this.reporte.feyhora)
                   formData.append("estado", this.reporte.estado)
+                  formData.append("feyhorafinal", this.reporte.feyhorafinal)
 
 
                 axios.post('api/reportes/guardar',formData)
@@ -398,7 +442,7 @@ import { title } from 'process'
             }, 
             guardar_r(){
                  var formData = new FormData()
-                  formData.append("imagen", this.file)
+                 
 
                   formData.append("id", this.reporte.id)
                   formData.append("nombre_area", this.reporte.nombre_area)
@@ -407,6 +451,7 @@ import { title } from 'process'
                   formData.append("reporte", this.reporte.reporte)
                   formData.append("feyhora", this.reporte.feyhora)
                   formData.append("estado", this.reporte.estado)
+                  formData.append("feyhorafinal", this.reporte.feyhorafinal)
 
 
                 axios.post('api/reportes/guardar',formData)

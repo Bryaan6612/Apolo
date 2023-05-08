@@ -133,22 +133,37 @@
                   <h4>AREAS </h4>
                     <select name="area_id" v-model="reporte.nombre_area" id ="nombre_area"  class="form-control">
                       <option value="" selected disabled hidden>Choose here</option>
-                      <option value="Tesoreria">Tesoreria</option>
+                      <option value="Administración">Administración</option>
+                      <option value="Agua Potable, Drenaje Y Alcantarillado">Agua Potable, Drenaje Y Alcantarillado</option>
+                      <option value="Anticorrupción">Anticorrupción</option>
                       <option value="Contraloria">Contraloria</option>
-                      <option value="SeguridadP">Seguridad publica</option>
-                      <option value="Presidencia">Presidencia</option>
-                      <option value="ObrasP">Obras Publicas</option>
-                      <option value="Cultura">Cultura</option>
+                      <option value="Catastro">Catastro</option>
+                      <option value="Archivo Municipal">Archivo Municipal</option>                
                       <option value="Biblioteca">Biblioteca</option>
-                      <option value="BibliotecaD">Biblioteca Digital</option>
-                      <option value="ServiciosP">Servicios Publicos</option>
-                      <option value="AguaPDA">Agua Potable, Drenaje Y Alcantarillado</option>
-                      <option value="Bomberos">Bomberos</option>
-                      <option value="UIPPE">UIPPE</option>
-                      <option value="ServiciosP">Servicios Publicos</option>
+                      <option value="Biblioteca Digital">Biblioteca Digital</option>
+                      <option value="Desarrollo y Bienestar Social">Desarrollo y Bienestar Social</option>
+                      <option value="Derechos Humanos">Derechos Humanos</option>
+                      <option value="Desarrollo Urbano">Desarrollo Urbano</option>
+                      <option value="DIF">DIF</option>
+                      <option value="Ecología y Medio Ambiente">Ecología y Medio Ambiente</option>
+                      <option value="Educación y Cultura">Educación y Cultura</option>
+                      <option value="IMCUFIDET">IMCUFIDET</option>
+                      <option value="Juridico">Jurídico</option>
+                      <option value="Obras Publicas">Obras Publicas</option>
                       <option value="Oficialia">Oficialia Calificadora</option>
-                      <option value="Regiduria">Regiduria</option>
+                      <option value="Bomberos">Protección Civil y Bomberos</option>
+                      <option value="Presidencia">Presidencia</option>                
+                      <option value="Salud Municipal">Salud Municipal</option>
+                      <option value="Secretaria del Ayuntamiento">Secretaria del Ayuntamiento</option>
+                      <option value="Secretaria Técnica">Secretaria Técnica de Seguridad Publica</option>
+                      <option value="Seguridad Publica">Seguridad publica</option>
+                      <option value="Servicios Publicos">Servicios Publicos</option>
                       <option value="Sindicatura">Sindicatura</option>
+                      <option value="Tesoreria">Tesoreria</option>
+                      <option value="Regiduria">Regidurias</option>
+                      <option value="Registro Civil">Registro Civil</option>
+                      <option value="UIPPE">UIPPE</option>
+                      <option value="Unidad de Transparencia/Consulta Ciudadana">Unidad de Transparencia/Consulta Ciudadana</option>
 
                     </select>
                 </div>
@@ -156,7 +171,132 @@
                 <div class="col-md-6">
                 <div class="form-group">
                   <h4>NOMBRE DEL CLIENTE </h4>
-                    <input type="text" class="form-control"  v-model="reporte.nombre_cliente" id="nombre_cliente" >
+                    <select name="cliente_id" v-model="reporte.nombre_cliente" id="nombre_cliente" class="form-control">
+
+                      <option value="Alexandra López Mauricio">Alexandra López Mauricio</option>
+                      <option value="Angel Rivas">Angel Rivas</option>
+                      <option value="Ángeles Chavarría Rodríguez">Ángeles Chavarría Rodríguez</option>
+                      <option value="Araceli Carmona Cruz">Araceli Carmona Cruz</option>
+                      <option value="Arantxa Aldana Hernández">Arantxa Aldana Hernández</option>
+                      <option value="Benito Medina Martínez">Benito Medina Martínez</option>                
+                      <option value="Inés Acosta Ortega">Inés Acosta Ortega</option>
+                      <option value="Claudia Rodríguez Rodríguez">Claudia Rodríguez Rodríguez</option>
+                      <option value="Denisse Ortíz Hernández">Denisse Ortíz Hernández</option>
+                      <option value="Doroteo Rodríguez">Doroteo Rodríguez</option>
+                      <option value="Dr. Juan Martínez Rodríguez">Dr. Juan Martínez Rodríguez</option>
+                      <option value="Gilberto Suárez Lozano">Gilberto Suárez Lozano</option>
+                      <option value="Guadalupe Huerta González">Guadalupe Huerta González</option>                
+                      <option value="Guadalupe García Torres">Guadalupe García Torres</option>
+                      <option value="Guadalupe Martínez Rodríguez">Guadalupe Martínez Rodríguez</option>
+                      <option value="Jazmin Barrera Ortega">Jazmin Barrera Ortega</option>
+                      <option value="Jorge Vargas Vázquez">Jorge Vargas Vázquez</option>
+                      <option value="Joselin A. Ortíz Chavarría">Joselin A. Ortíz Chavarría</option>
+                      <option value="Daniel Flores Martínez">Daniel Flores Martínez</option>
+                      <option value="Norma Leticia Sánchez Palma">Norma Leticia Sánchez Palma</option>                
+                      <option value="Miguel Ángel Pérez Antonio">Miguel Ángel Pérez Antonio</option>
+                      <option value="Misael Ortíz Chavarría">Misael Ortíz Chavarría</option>
+                      <option value="Nancy Marlene López Barrera">Nancy Marlene López Barrera</option>
+                      <option value="Pedro Martínez Reyes">Pedro Martínez Reyes</option>
+                      <option value="Olga">Olga</option>
+                      <option value="Paola Hernández Hidalgo">Paola Hernández Hidalgo</option>
+                      <option value="Patricia Ortíz Arenas">Patricia Ortíz Arenas</option>                
+                      <option value="Josefa Martínez Sánchez">Josefa Martínez Sánchez</option>
+                      <option value="Roberto Martínez Rodríguez">Roberto Martínez Rodríguez</option>
+                      <option value="Rocio Martínez Rodríguez">Rocio Martínez Rodríguez</option>
+                      <option value="Roque Chavarría Rodríguez">Roque Chavarría Rodríguez</option>
+                      <option value="Sandra Mauricio Najera">Sandra Mauricio Najera</option>                
+                      <option value="Vicente Chavarría">Vicente Chavarría</option>
+                      <option value="Xochitl Juárez">Xochitl Juárez</option>
+                      <option value="Zaira Edith García Reyes">Zaira Edith García Reyes</option>
+                      <option value="Beatriz Martínez Velázquez">Beatriz Martínez Velázquez</option>
+                      <option value="Velia López Gutiérrez">Velia López Gutiérrez</option>
+                      <option value="Raúl Valdéz Duran">Raúl Valdéz Duran</option>
+                      <option value="Clemente Chavarría Díaz">Clemente Chavarría Díaz</option>                
+                      <option value="Sofia Martínez Rodriguez">Sofia Martínez Rodriguez</option>
+                      <option value="Erika Martínez Rodriguez">Erika Martínez Rodriguez</option>
+                      <option value="Juan Daniel Ramirez Castro">Juan Daniel Ramirez Castro</option>
+                      <option value="Aida Isidro Delgado">Aida Isidro Delgado</option>
+                      <option value="Jessica Delgado">Jessica Delgado</option>                
+                      <option value="Elizabeth Tafolla">Elizabeth Tafolla</option>
+                      <option value="Abigail Rodríguez">Abigail Rodríguez</option>
+                      <option value="Daniel Suarez">Daniel Suarez</option>
+                      <option value="Citlali Sanchez">Citlali Sanchez</option>
+                      <option value="Isela Martínez Rodríguez">Isela Martínez Rodríguez</option>
+                      <option value="Erick Alberto Muñoz Fernandez">Erick Alberto Muñoz Fernandez</option>
+                      <option value="Ana Rosa Martínez Flores">Ana Rosa Martínez Flores</option>                
+                      <option value="Claudia Velázquez Vázquez">Claudia Velázquez Vázquez</option>
+                      <option value="Estela Rodríguez Galván">Estela Rodríguez Galván</option>
+                      <option value="Viridiana Molina Rodríguez">Viridiana Molina Rodríguez</option>
+                      <option value="Kitsia Rojas Diaz">Kitsia Rojas Diaz</option>
+                      <option value="Carlos Antonio Hernández">Carlos Antonio Hernández</option>                
+                      <option value="Gabriel Chavarría">Gabriel Chavarría</option>
+                      <option value="Alberto Rodríguez">Alberto Rodríguez</option>
+                      <option value="Julio Cesar Castañon">Julio Cesar Castañon</option>
+                      <option value="Saúl Sánchez">Saúl Sánchez</option>
+                      <option value="Karina Rodriguez Chavarria">Karina Rodriguez Chavarria</option>
+                      <option value="Fabiola Jacome Hernández">Fabiola Jacome Hernández</option>
+                      <option value="Nicolás Pérez">Nicolás Pérez</option>                
+                      <option value="Remedios Rodriguez">Remedios Rodriguez</option>
+                      <option value="Grecia Samantha Jímenez Olivo">Grecia Samantha Jímenez Olivo</option>
+                      <option value="Jessica Mitzi Rodriguez Ortiz">Jessica Mitzi Rodriguez Ortiz</option>
+                      <option value="Alexia Chavarría Ortíz">Alexia Chavarría Ortíz</option>                
+                      <option value="Damaris Juárez Martínez">Damaris Juárez Martínez</option>
+                      <option value="Karen Diaz Cruz">Karen Diaz Cruz</option>
+                      <option value="Gregorio Rodríguez Martínez">Gregorio Rodríguez Martínez</option>
+                      <option value="Juana Verónica Trujillo Cruz">Juana Verónica Trujillo Cruz</option>
+                      <option value="Raquel Rivero Ortíz">Raquel Rivero Ortíz</option>                
+                      <option value="Maria Cristina Viveros">Maria Cristina Viveros</option>
+                      <option value="Luz María Piña Carrillo">Luz María Piña Carrillo</option>
+                      <option value="Jessica Velazquez Vega">Jessica Velazquez Vega</option>
+                      <option value="Fabiola Rodríguez Escobar">Fabiola Rodríguez Escobar</option>
+                      <option value="Fidel Rodriguez Escobar">Fidel Rodriguez Escobar</option>
+                      <option value="Marlen Rodriguez Reyes">Marlen Rodriguez Reyes</option>
+                      <option value="Edgar Bustamante Rodríguez">Edgar Bustamante Rodríguez</option>     
+                      <option value="Janett Morales Chavarría">Janett Morales Chavarría</option>
+                      <option value="Rosario Pichardo Olvera">Rosario Pichardo Olvera</option>
+                      <option value="Felipe Valente">Felipe Valente</option>                
+                      <option value="Monserrat Ortíz">Monserrat Ortíz</option>
+                      <option value="Bibliotecario">Bibliotecario</option>
+                      <option value="Gisela Ramírez">Gisela Ramírez</option>
+                      <option value="Monserrat Cruz Juárez">Monserrat Cruz Juárez</option>
+                      <option value="Gustavo Rodríguez">Gustavo Rodríguez</option>                
+                      <option value="Oscar Cruz">Oscar Cruz</option>
+                      <option value="Rangel Rivero">Rangel Rivero</option>
+                      <option value="Mario salazar">Mario salazar</option>
+                      <option value="Raquel Martinez">Raquel Martinez</option>
+                      <option value="Esmeralda Jaqueline Hernandez Juarez">Esmeralda Jaqueline Hernandez Juarez</option>
+                      <option value="Rocio Mauricio Ramírez">Rocio Mauricio Ramírez</option>
+                      <option value="Victoriano Rodríguez">Victoriano Rodríguez</option>     
+                      <option value="Roberto Rodríguez">Roberto Rodríguez</option>
+                      <option value="Kelly Cabrera">Kelly Cabrera</option>
+                      <option value="Nayeli Pardinez">Nayeli Pardinez</option>
+                      <option value="Cruz Maria Piña">Cruz Maria Piña</option>
+                      <option value="Andrea Tellez">Andrea Tellez</option>                
+                      <option value="Tlepziba Jaanahi Villeda Barragan">Tlepziba Jaanahi Villeda Barragan</option>
+                      <option value="Amalia Ortiz">Amalia Ortiz</option>
+                      <option value="Giovana Flores">Giovana Flores</option>
+                      <option value="Demetrio Ortiz">Demetrio Ortiz</option>
+                      <option value="David Rodriguez">David Rodriguez</option>
+                      <option value="Benito Molina">Benito Molina</option>
+                      <option value="Alondra Martinez">Alondra Martinez</option>   
+                      <option value="Vanessa Verastegui">Vanessa Verastegui</option>
+                      <option value="Tamaris Juarez">Tamaris Juarez</option>
+                      <option value="Yanet">Yanet</option>
+                      <option value="Ericka">Ericka</option>
+                      <option value="Fatima Estevez">Fatima Estevez</option>                
+                      <option value="Victoria Gonzalez">Victoria Gonzalez</option>
+                      <option value="Ajax Rodriguez">Ajax Rodriguez</option>
+                      <option value="Colin Esmeralda Monroy">Colin Esmeralda Monroy</option>
+                      <option value="Juan Manuel Navarrete">Juan Manuel Navarrete</option>
+                      <option value="Yessica Rodriguez">Yessica Rodriguez</option>
+                      <option value="Gabriel Santiago">Gabriel Santiago</option>
+                      <option value="Evelyn chavarria">Evelyn Chavarria</option>
+                      <option value="Abraham Molina">Abraham Molina</option>
+                      <option value="Jose Salvador Rodriguez">Jose Salvador Rodriguez</option>
+                      <option value="Maria Guadalupe Santillan">Maria Guadalupe Santillan</option>
+                     
+                  
+                </select>  
                 </div>
                 </div>
             </div>
@@ -165,18 +305,65 @@
                 <div class="form-group">
                   <h4>TECNICOS </h4>
                   <select name="tecnico_id" v-model="reporte.nombre_tecnico" id ="nombre_tecnico"  class="form-control" >
-                    <option value="Bryan">Bryan</option>
-                      <option value="Alberto">Alberto</option>
-                      <option value="Gonzalo">Gonzalo</option>
-                      <option value="Christian">Christian</option>
-                      <option value="Juan">Juan</option>
+                      <option value="Bryan Herrera">Bryan Herrera</option>
+                      <option value="Christian">Christian Ruano</option>
+                      <option value="Dalia Martinez">Dalia Martinez</option>
+                      <option value="Miguel Valles">Miguel Valles</option>
+                      <option value="Scarlett Adabell">Scarlett Adabell</option>
                   </select>
                 </div>
                 </div>
                 <div class="col-md-6">
                 <div class="form-group">
                   <h4>INFORMACION DEL REPORTE</h4>
-                    <input type="text" class="form-control" v-model="reporte.reporte" id="reporte">
+                    <select name="reporte_id" v-model="reporte.reporte" id="reporte_id" class="form-control" >
+                      <option value="Antivirus">Antivirus</option>
+                      <option value="Biométrico">Biométrico</option>
+                      <option value="Cableado">Cableado</option>
+                      <option value="Entrega de equipo">Entrega de equipo</option>
+                      <option value="Entrega de insumos">Entrega de insumos</option>
+                      <option value="Impresora">Impresora</option>
+                      <option value="Instalación de equipo nuevo">Instalación de equipo nuevo</option>
+                      <option value="Instalación de impresora">Instalación de impresora</option>
+                      <option value="Conectividad a Internet">Conectividad a Internet</option>
+                      <option value="Mantenimiento a computadora">Mantenimiento a computadora</option>
+                      <option value="Nodo de red">Nodo de red</option>
+                      <option value="Paquetería">Paquetería</option>
+                      <option value="Reubicación de equipo">Reubicación de equipo</option>
+                      <option value="Solicitud de equipo">Solicitud de equipo</option>
+                      <option value="Solicitud de accesorios">Solicitud de accesorios</option>
+                      <option value="Solicitud de perifericos">Solicitud de perifericos</option>
+                      <option value="Solicitud de insumos">Solicitud de insumos</option>
+                      <option value="Switch">Switch</option>
+                      <option value="Copiadora">Copiadora</option>
+                      <option value="Multifuncional">Multifuncional</option>
+                      <option value="Reemplazo de equipo">Reemplazo de equipo</option>
+                      <option value="Préstamo de equipo">Préstamo de equipo</option>
+                      <option value="Revisión de infraestructura">Revisión de infraestructura</option>
+                      <option value="Revisión de servicios">Revisión de servicios</option>
+                      <option value="Solicitud de mantenimiento">Solicitud de mantenimiento</option>
+                      <option value="Entrega e instalacion de tintas o tóner">Entrega e instalacion de tintas o tóner</option>
+                      <option value="Canaleta y cajas externas para nodos">Canaleta y cajas externas para nodos</option>
+                      <option value="Respaldo de información">Respaldo de información</option>
+                      <option value="Bloqueo de redes sociales">Bloqueo de redes sociales</option>
+                      <option value="Desinstalación e instalación de software">Desinstalación e instalación de software</option>
+                      <option value="Scanner">Scanner</option>
+                      <option value="Análisis de memoria">Análisis de memoria</option>
+                      <option value="Asistencia">Asistencia</option>
+                      <option value="Mantenimiento de software de paquetería">Mantenimiento de software de paquetería</option>
+                      <option value="Instalación y configuración de router">Instalación y configuración de router</option>
+                      <option value="Mantenimiento de software - sistema operativo">Mantenimiento de software - sistema operativo</option>
+                      <option value="Configuración para impresión en recurso compartido ">Configuración para impresión en recurso compartido </option>
+                      <option value="Recorrido general">Recorrido general</option>
+                      <option value="Servicio Técnico-Mantenimiento físico">Servicio Técnico-Mantenimiento físico</option>
+                      <option value="Entrega de carta">Entrega de carta</option>
+                      <option value="Reseteo de acceso de equipo">Reseteo de acceso de equipo</option>
+                      <option value="Instalación de tuberia tipo conduit">Instalación de tuberia tipo conduit</option>
+                      <option value="Suministro e instalación de cableado UTP">Suministro e instalación de cableado UTP</option>
+                      <option value="Niveles de tinta">Niveles de tinta</option>
+                      <option value="Licencias">Licencias</option>
+                      <option value="Suministro e instalación de nodo de red">Suministro e instalación de nodo de red</option>
+                  </select>
                 </div>
                 </div>
                 <div class="col-md-6">
@@ -249,30 +436,168 @@
                   <h4>AREAS </h4>
                     <select name="area_id" v-model="reporte.nombre_area" id ="nombre_area"  class="form-control">
                       <option value="" selected disabled hidden>Choose here</option>
-                      <option value="Tesoreria">Tesoreria</option>
+                      <option value="Administración">Administración</option>
+                      <option value="Agua Potable, Drenaje Y Alcantarillado">Agua Potable, Drenaje Y Alcantarillado</option>
+                      <option value="Anticorrupción">Anticorrupción</option>
                       <option value="Contraloria">Contraloria</option>
-                      <option value="SeguridadP">Seguridad publica</option>
-                      <option value="Presidencia">Presidencia</option>
-                      <option value="ObrasP">Obras Publicas</option>
-                      <option value="Cultura">Cultura</option>
+                      <option value="Catastro">Catastro</option>
+                      <option value="Archivo Municipal">Archivo Municipal</option>                
                       <option value="Biblioteca">Biblioteca</option>
-                      <option value="BibliotecaD">Biblioteca Digital</option>
-                      <option value="ServiciosP">Servicios Publicos</option>
-                      <option value="AguaPDA">Agua Potable, Drenaje Y Alcantarillado</option>
-                      <option value="Bomberos">Bomberos</option>
-                      <option value="UIPPE">UIPPE</option>
-                      <option value="ServiciosP">Servicios Publicos</option>
+                      <option value="Biblioteca Digital">Biblioteca Digital</option>
+                      <option value="Desarrollo y Bienestar Social">Desarrollo y Bienestar Social</option>
+                      <option value="Derechos Humanos">Derechos Humanos</option>
+                      <option value="Desarrollo Urbano">Desarrollo Urbano</option>
+                      <option value="DIF">DIF</option>
+                      <option value="Ecología y Medio Ambiente">Ecología y Medio Ambiente</option>
+                      <option value="Educación y Cultura">Educación y Cultura</option>
+                      <option value="IMCUFIDET">IMCUFIDET</option>
+                      <option value="Juridico">Jurídico</option>
+                      <option value="Obras Publicas">Obras Publicas</option>
                       <option value="Oficialia">Oficialia Calificadora</option>
-                      <option value="Regiduria">Regiduria</option>
+                      <option value="Bomberos">Protección Civil y Bomberos</option>
+                      <option value="Presidencia">Presidencia</option>                
+                      <option value="Salud Municipal">Salud Municipal</option>
+                      <option value="Secretaria del Ayuntamiento">Secretaria del Ayuntamiento</option>
+                      <option value="Secretaria Técnica">Secretaria Técnica de Seguridad Publica</option>
+                      <option value="Seguridad Publica">Seguridad publica</option>
+                      <option value="Servicios Publicos">Servicios Publicos</option>
                       <option value="Sindicatura">Sindicatura</option>
-
+                      <option value="Tesoreria">Tesoreria</option>
+                      <option value="Regiduria">Regidurias</option>
+                      <option value="Registro Civil">Registro Civil</option>
+                      <option value="UIPPE">UIPPE</option>
+                      <option value="Unidad de Transparencia/Consulta Ciudadana">Unidad de Transparencia/Consulta Ciudadana</option>
                     </select>
                 </div>
                 </div>
                 <div class="col-md-6">
                 <div class="form-group">
                   <h4>NOMBRE DEL CLIENTE </h4>
-                    <input type="text" class="form-control"  v-model="reporte.nombre_cliente" id="nombre_cliente" >
+                    <select name="cliente_id" v-model="reporte.nombre_cliente" id="nombre_cliente" class="form-control" >
+
+                      <option value="Alexandra López Mauricio">Alexandra López Mauricio</option>
+                      <option value="Angel Rivas">Angel Rivas</option>
+                      <option value="Ángeles Chavarría Rodríguez">Ángeles Chavarría Rodríguez</option>
+                      <option value="Araceli Carmona Cruz">Araceli Carmona Cruz</option>
+                      <option value="Arantxa Aldana Hernández">Arantxa Aldana Hernández</option>
+                      <option value="Benito Medina Martínez">Benito Medina Martínez</option>                
+                      <option value="Inés Acosta Ortega">Inés Acosta Ortega</option>
+                      <option value="Claudia Rodríguez Rodríguez">Claudia Rodríguez Rodríguez</option>
+                      <option value="Denisse Ortíz Hernández">Denisse Ortíz Hernández</option>
+                      <option value="Doroteo Rodríguez">Doroteo Rodríguez</option>
+                      <option value="Dr. Juan Martínez Rodríguez">Dr. Juan Martínez Rodríguez</option>
+                      <option value="Gilberto Suárez Lozano">Gilberto Suárez Lozano</option>
+                      <option value="Guadalupe Huerta González">Guadalupe Huerta González</option>                
+                      <option value="Guadalupe García Torres">Guadalupe García Torres</option>
+                      <option value="Guadalupe Martínez Rodríguez">Guadalupe Martínez Rodríguez</option>
+                      <option value="Jazmin Barrera Ortega">Jazmin Barrera Ortega</option>
+                      <option value="Jorge Vargas Vázquez">Jorge Vargas Vázquez</option>
+                      <option value="Joselin A. Ortíz Chavarría">Joselin A. Ortíz Chavarría</option>
+                      <option value="Daniel Flores Martínez">Daniel Flores Martínez</option>
+                      <option value="Norma Leticia Sánchez Palma">Norma Leticia Sánchez Palma</option>                
+                      <option value="Miguel Ángel Pérez Antonio">Miguel Ángel Pérez Antonio</option>
+                      <option value="Misael Ortíz Chavarría">Misael Ortíz Chavarría</option>
+                      <option value="Nancy Marlene López Barrera">Nancy Marlene López Barrera</option>
+                      <option value="Pedro Martínez Reyes">Pedro Martínez Reyes</option>
+                      <option value="Olga">Olga</option>
+                      <option value="Paola Hernández Hidalgo">Paola Hernández Hidalgo</option>
+                      <option value="Patricia Ortíz Arenas">Patricia Ortíz Arenas</option>                
+                      <option value="Josefa Martínez Sánchez">Josefa Martínez Sánchez</option>
+                      <option value="Roberto Martínez Rodríguez">Roberto Martínez Rodríguez</option>
+                      <option value="Rocio Martínez Rodríguez">Rocio Martínez Rodríguez</option>
+                      <option value="Roque Chavarría Rodríguez">Roque Chavarría Rodríguez</option>
+                      <option value="Sandra Mauricio Najera">Sandra Mauricio Najera</option>                
+                      <option value="Vicente Chavarría">Vicente Chavarría</option>
+                      <option value="Xochitl Juárez">Xochitl Juárez</option>
+                      <option value="Zaira Edith García Reyes">Zaira Edith García Reyes</option>
+                      <option value="Beatriz Martínez Velázquez">Beatriz Martínez Velázquez</option>
+                      <option value="Velia López Gutiérrez">Velia López Gutiérrez</option>
+                      <option value="Raúl Valdéz Duran">Raúl Valdéz Duran</option>
+                      <option value="Clemente Chavarría Díaz">Clemente Chavarría Díaz</option>                
+                      <option value="Sofia Martínez Rodriguez">Sofia Martínez Rodriguez</option>
+                      <option value="Erika Martínez Rodriguez">Erika Martínez Rodriguez</option>
+                      <option value="Juan Daniel Ramirez Castro">Juan Daniel Ramirez Castro</option>
+                      <option value="Aida Isidro Delgado">Aida Isidro Delgado</option>
+                      <option value="Jessica Delgado">Jessica Delgado</option>                
+                      <option value="Elizabeth Tafolla">Elizabeth Tafolla</option>
+                      <option value="Abigail Rodríguez">Abigail Rodríguez</option>
+                      <option value="Daniel Suarez">Daniel Suarez</option>
+                      <option value="Citlali Sanchez">Citlali Sanchez</option>
+                      <option value="Isela Martínez Rodríguez">Isela Martínez Rodríguez</option>
+                      <option value="Erick Alberto Muñoz Fernandez">Erick Alberto Muñoz Fernandez</option>
+                      <option value="Ana Rosa Martínez Flores">Ana Rosa Martínez Flores</option>                
+                      <option value="Claudia Velázquez Vázquez">Claudia Velázquez Vázquez</option>
+                      <option value="Estela Rodríguez Galván">Estela Rodríguez Galván</option>
+                      <option value="Viridiana Molina Rodríguez">Viridiana Molina Rodríguez</option>
+                      <option value="Kitsia Rojas Diaz">Kitsia Rojas Diaz</option>
+                      <option value="Carlos Antonio Hernández">Carlos Antonio Hernández</option>                
+                      <option value="Gabriel Chavarría">Gabriel Chavarría</option>
+                      <option value="Alberto Rodríguez">Alberto Rodríguez</option>
+                      <option value="Julio Cesar Castañon">Julio Cesar Castañon</option>
+                      <option value="Saúl Sánchez">Saúl Sánchez</option>
+                      <option value="Karina Rodriguez Chavarria">Karina Rodriguez Chavarria</option>
+                      <option value="Fabiola Jacome Hernández">Fabiola Jacome Hernández</option>
+                      <option value="Nicolás Pérez">Nicolás Pérez</option>                
+                      <option value="Remedios Rodriguez">Remedios Rodriguez</option>
+                      <option value="Grecia Samantha Jímenez Olivo">Grecia Samantha Jímenez Olivo</option>
+                      <option value="Jessica Mitzi Rodriguez Ortiz">Jessica Mitzi Rodriguez Ortiz</option>
+                      <option value="Alexia Chavarría Ortíz">Alexia Chavarría Ortíz</option>                
+                      <option value="Damaris Juárez Martínez">Damaris Juárez Martínez</option>
+                      <option value="Karen Diaz Cruz">Karen Diaz Cruz</option>
+                      <option value="Gregorio Rodríguez Martínez">Gregorio Rodríguez Martínez</option>
+                      <option value="Juana Verónica Trujillo Cruz">Juana Verónica Trujillo Cruz</option>
+                      <option value="Raquel Rivero Ortíz">Raquel Rivero Ortíz</option>                
+                      <option value="Maria Cristina Viveros">Maria Cristina Viveros</option>
+                      <option value="Luz María Piña Carrillo">Luz María Piña Carrillo</option>
+                      <option value="Jessica Velazquez Vega">Jessica Velazquez Vega</option>
+                      <option value="Fabiola Rodríguez Escobar">Fabiola Rodríguez Escobar</option>
+                      <option value="Fidel Rodriguez Escobar">Fidel Rodriguez Escobar</option>
+                      <option value="Marlen Rodriguez Reyes">Marlen Rodriguez Reyes</option>
+                      <option value="Edgar Bustamante Rodríguez">Edgar Bustamante Rodríguez</option>     
+                      <option value="Janett Morales Chavarría">Janett Morales Chavarría</option>
+                      <option value="Rosario Pichardo Olvera">Rosario Pichardo Olvera</option>
+                      <option value="Felipe Valente">Felipe Valente</option>                
+                      <option value="Monserrat Ortíz">Monserrat Ortíz</option>
+                      <option value="Bibliotecario">Bibliotecario</option>
+                      <option value="Gisela Ramírez">Gisela Ramírez</option>
+                      <option value="Monserrat Cruz Juárez">Monserrat Cruz Juárez</option>
+                      <option value="Gustavo Rodríguez">Gustavo Rodríguez</option>                
+                      <option value="Oscar Cruz">Oscar Cruz</option>
+                      <option value="Rangel Rivero">Rangel Rivero</option>
+                      <option value="Mario salazar">Mario salazar</option>
+                      <option value="Raquel Martinez">Raquel Martinez</option>
+                      <option value="Esmeralda Jaqueline Hernandez Juarez">Esmeralda Jaqueline Hernandez Juarez</option>
+                      <option value="Rocio Mauricio Ramírez">Rocio Mauricio Ramírez</option>
+                      <option value="Victoriano Rodríguez">Victoriano Rodríguez</option>     
+                      <option value="Roberto Rodríguez">Roberto Rodríguez</option>
+                      <option value="Kelly Cabrera">Kelly Cabrera</option>
+                      <option value="Nayeli Pardinez">Nayeli Pardinez</option>
+                      <option value="Cruz Maria Piña">Cruz Maria Piña</option>
+                      <option value="Andrea Tellez">Andrea Tellez</option>                
+                      <option value="Tlepziba Jaanahi Villeda Barragan">Tlepziba Jaanahi Villeda Barragan</option>
+                      <option value="Amalia Ortiz">Amalia Ortiz</option>
+                      <option value="Giovana Flores">Giovana Flores</option>
+                      <option value="Demetrio Ortiz">Demetrio Ortiz</option>
+                      <option value="David Rodriguez">David Rodriguez</option>
+                      <option value="Benito Molina">Benito Molina</option>
+                      <option value="Alondra Martinez">Alondra Martinez</option>   
+                      <option value="Vanessa Verastegui">Vanessa Verastegui</option>
+                      <option value="Tamaris Juarez">Tamaris Juarez</option>
+                      <option value="Yanet">Yanet</option>
+                      <option value="Ericka">Ericka</option>
+                      <option value="Fatima Estevez">Fatima Estevez</option>                
+                      <option value="Victoria Gonzalez">Victoria Gonzalez</option>
+                      <option value="Ajax Rodriguez">Ajax Rodriguez</option>
+                      <option value="Colin Esmeralda Monroy">Colin Esmeralda Monroy</option>
+                      <option value="Juan Manuel Navarrete">Juan Manuel Navarrete</option>
+                      <option value="Yessica Rodriguez">Yessica Rodriguez</option>
+                      <option value="Gabriel Santiago">Gabriel Santiago</option>
+                      <option value="Evelyn chavarria">Evelyn Chavarria</option>
+                      <option value="Abraham Molina">Abraham Molina</option>
+                      <option value="Jose Salvador Rodriguez">Jose Salvador Rodriguez</option>
+                      <option value="Maria Guadalupe Santillan">Maria Guadalupe Santillan</option>
+
+                    </select>  
                 </div>
                 </div>
             </div>
@@ -281,17 +606,67 @@
                 <div class="form-group">
                   <h4>TECNICOS </h4>
                   <select name="tecnico_id" v-model="reporte.nombre_tecnico" id ="nombre_tecnico"  class="form-control" >
-                    <option value="Bryan">Bryan</option>
-                      <option value="Alberto">Alberto</option>
-                      <option value="Gonzalo">Gonzalo</option>
-                      <option value="Christian">Christian</option>
+                      <option value="Bryan Herrera">Bryan Herrera</option>
+                      <option value="Christian">Christian Ruano</option>
+                      <option value="Dalia Martinez">Dalia Martinez</option>
+                      <option value="Miguel Valles">Miguel Valles</option>
+                      <option value="Scarlett Adabell">Scarlett Adabell</option>
+
+                
                   </select>
                 </div>
                 </div>
                 <div class="col-md-6">
                 <div class="form-group">
                   <h4>INFORMACION DEL REPORTE</h4>
-                    <input type="text" class="form-control" v-model="reporte.reporte" id="reporte">
+                  <select name="reporte_id" v-model="reporte.reporte" id="reporte_id" class="form-control" >
+                      <option value="Antivirus">Antivirus</option>
+                      <option value="Biométrico">Biométrico</option>
+                      <option value="Cableado">Cableado</option>
+                      <option value="Entrega de equipo">Entrega de equipo</option>
+                      <option value="Entrega de insumos">Entrega de insumos</option>
+                      <option value="Impresora">Impresora</option>
+                      <option value="Instalación de equipo nuevo">Instalación de equipo nuevo</option>
+                      <option value="Instalación de impresora">Instalación de impresora</option>
+                      <option value="Conectividad a Internet">Conectividad a Internet</option>
+                      <option value="Mantenimiento a computadora">Mantenimiento a computadora</option>
+                      <option value="Nodo de red">Nodo de red</option>
+                      <option value="Paquetería">Paquetería</option>
+                      <option value="Reubicación de equipo">Reubicación de equipo</option>
+                      <option value="Solicitud de equipo">Solicitud de equipo</option>
+                      <option value="Solicitud de accesorios">Solicitud de accesorios</option>
+                      <option value="Solicitud de perifericos">Solicitud de perifericos</option>
+                      <option value="Solicitud de insumos">Solicitud de insumos</option>
+                      <option value="Switch">Switch</option>
+                      <option value="Copiadora">Copiadora</option>
+                      <option value="Multifuncional">Multifuncional</option>
+                      <option value="Reemplazo de equipo">Reemplazo de equipo</option>
+                      <option value="Préstamo de equipo">Préstamo de equipo</option>
+                      <option value="Revisión de infraestructura">Revisión de infraestructura</option>
+                      <option value="Revisión de servicios">Revisión de servicios</option>
+                      <option value="Solicitud de mantenimiento">Solicitud de mantenimiento</option>
+                      <option value="Entrega e instalacion de tintas o tóner">Entrega e instalacion de tintas o tóner</option>
+                      <option value="Canaleta y cajas externas para nodos">Canaleta y cajas externas para nodos</option>
+                      <option value="Respaldo de información">Respaldo de información</option>
+                      <option value="Bloqueo de redes sociales">Bloqueo de redes sociales</option>
+                      <option value="Desinstalación e instalación de software">Desinstalación e instalación de software</option>
+                      <option value="Scanner">Scanner</option>
+                      <option value="Análisis de memoria">Análisis de memoria</option>
+                      <option value="Asistencia">Asistencia</option>
+                      <option value="Mantenimiento de software de paquetería">Mantenimiento de software de paquetería</option>
+                      <option value="Instalación y configuración de router">Instalación y configuración de router</option>
+                      <option value="Mantenimiento de software - sistema operativo">Mantenimiento de software - sistema operativo</option>
+                      <option value="Configuración para impresión en recurso compartido ">Configuración para impresión en recurso compartido </option>
+                      <option value="Recorrido general">Recorrido general</option>
+                      <option value="Servicio Técnico-Mantenimiento físico">Servicio Técnico-Mantenimiento físico</option>
+                      <option value="Entrega de carta">Entrega de carta</option>
+                      <option value="Reseteo de acceso de equipo">Reseteo de acceso de equipo</option>
+                      <option value="Instalación de tuberia tipo conduit">Instalación de tuberia tipo conduit</option>
+                      <option value="Suministro e instalación de cableado UTP">Suministro e instalación de cableado UTP</option>
+                      <option value="Niveles de tinta">Niveles de tinta</option>
+                      <option value="Licencias">Licencias</option>
+                      <option value="Suministro e instalación de nodo de red">Suministro e instalación de nodo de red</option>
+                  </select>
                 </div>
                 </div>
                 <div class="col-md-6">

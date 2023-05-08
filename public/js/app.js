@@ -6359,6 +6359,381 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
@@ -31590,69 +31965,189 @@ var render = function () {
                               [_vm._v("Choose here")]
                             ),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Tesoreria" } }, [
-                              _vm._v("Tesoreria"),
-                            ]),
+                            _c(
+                              "option",
+                              { attrs: { value: "Administración" } },
+                              [_vm._v("Administración")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Agua Potable, Drenaje Y Alcantarillado",
+                                },
+                              },
+                              [_vm._v("Agua Potable, Drenaje Y Alcantarillado")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Anticorrupción" } },
+                              [_vm._v("Anticorrupción")]
+                            ),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "Contraloria" } }, [
                               _vm._v("Contraloria"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "SeguridadP" } }, [
-                              _vm._v("Seguridad publica"),
+                            _c("option", { attrs: { value: "Catastro" } }, [
+                              _vm._v("Catastro"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Archivo Municipal" } },
+                              [_vm._v("Archivo Municipal")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Biblioteca" } }, [
+                              _vm._v("Biblioteca"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Biblioteca Digital" } },
+                              [_vm._v("Biblioteca Digital")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Desarrollo y Bienestar Social",
+                                },
+                              },
+                              [_vm._v("Desarrollo y Bienestar Social")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Derechos Humanos" } },
+                              [_vm._v("Derechos Humanos")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Desarrollo Urbano" } },
+                              [_vm._v("Desarrollo Urbano")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "DIF" } }, [
+                              _vm._v("DIF"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Ecología y Medio Ambiente" } },
+                              [_vm._v("Ecología y Medio Ambiente")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Educación y Cultura" } },
+                              [_vm._v("Educación y Cultura")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "IMCUFIDET" } }, [
+                              _vm._v("IMCUFIDET"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Juridico" } }, [
+                              _vm._v("Jurídico"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Obras Publicas" } },
+                              [_vm._v("Obras Publicas")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Oficialia" } }, [
+                              _vm._v("Oficialia Calificadora"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Bomberos" } }, [
+                              _vm._v("Protección Civil y Bomberos"),
                             ]),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "Presidencia" } }, [
                               _vm._v("Presidencia"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "ObrasP" } }, [
-                              _vm._v("Obras Publicas"),
+                            _c(
+                              "option",
+                              { attrs: { value: "Salud Municipal" } },
+                              [_vm._v("Salud Municipal")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Secretaria del Ayuntamiento" },
+                              },
+                              [_vm._v("Secretaria del Ayuntamiento")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Secretaria Técnica" } },
+                              [
+                                _vm._v(
+                                  "Secretaria Técnica de Seguridad Publica"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Seguridad Publica" } },
+                              [_vm._v("Seguridad publica")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Servicios Publicos" } },
+                              [_vm._v("Servicios Publicos")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Sindicatura" } }, [
+                              _vm._v("Sindicatura"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Cultura" } }, [
-                              _vm._v("Cultura"),
+                            _c("option", { attrs: { value: "Tesoreria" } }, [
+                              _vm._v("Tesoreria"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Biblioteca" } }, [
-                              _vm._v("Biblioteca"),
+                            _c("option", { attrs: { value: "Regiduria" } }, [
+                              _vm._v("Regidurias"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "BibliotecaD" } }, [
-                              _vm._v("Biblioteca Digital"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "ServiciosP" } }, [
-                              _vm._v("Servicios Publicos"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "AguaPDA" } }, [
-                              _vm._v("Agua Potable, Drenaje Y Alcantarillado"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Bomberos" } }, [
-                              _vm._v("Bomberos"),
-                            ]),
+                            _c(
+                              "option",
+                              { attrs: { value: "Registro Civil" } },
+                              [_vm._v("Registro Civil")]
+                            ),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "UIPPE" } }, [
                               _vm._v("UIPPE"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "ServiciosP" } }, [
-                              _vm._v("Servicios Publicos"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Oficialia" } }, [
-                              _vm._v("Oficialia Calificadora"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Regiduria" } }, [
-                              _vm._v("Regiduria"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Sindicatura" } }, [
-                              _vm._v("Sindicatura"),
-                            ]),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Unidad de Transparencia/Consulta Ciudadana",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Unidad de Transparencia/Consulta Ciudadana"
+                                ),
+                              ]
+                            ),
                           ]
                         ),
                       ]),
@@ -31662,31 +32157,809 @@ var render = function () {
                       _c("div", { staticClass: "form-group" }, [
                         _c("h4", [_vm._v("NOMBRE DEL CLIENTE ")]),
                         _vm._v(" "),
-                        _c("input", {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model",
-                              value: _vm.reporte.nombre_cliente,
-                              expression: "reporte.nombre_cliente",
-                            },
-                          ],
-                          staticClass: "form-control",
-                          attrs: { type: "text", id: "nombre_cliente" },
-                          domProps: { value: _vm.reporte.nombre_cliente },
-                          on: {
-                            input: function ($event) {
-                              if ($event.target.composing) {
-                                return
-                              }
-                              _vm.$set(
-                                _vm.reporte,
-                                "nombre_cliente",
-                                $event.target.value
-                              )
+                        _c(
+                          "select",
+                          {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.reporte.nombre_cliente,
+                                expression: "reporte.nombre_cliente",
+                              },
+                            ],
+                            staticClass: "form-control",
+                            attrs: { name: "cliente_id", id: "nombre_cliente" },
+                            on: {
+                              change: function ($event) {
+                                var $$selectedVal = Array.prototype.filter
+                                  .call($event.target.options, function (o) {
+                                    return o.selected
+                                  })
+                                  .map(function (o) {
+                                    var val = "_value" in o ? o._value : o.value
+                                    return val
+                                  })
+                                _vm.$set(
+                                  _vm.reporte,
+                                  "nombre_cliente",
+                                  $event.target.multiple
+                                    ? $$selectedVal
+                                    : $$selectedVal[0]
+                                )
+                              },
                             },
                           },
-                        }),
+                          [
+                            _c(
+                              "option",
+                              { attrs: { value: "Alexandra López Mauricio" } },
+                              [_vm._v("Alexandra López Mauricio")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Angel Rivas" } }, [
+                              _vm._v("Angel Rivas"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Ángeles Chavarría Rodríguez" },
+                              },
+                              [_vm._v("Ángeles Chavarría Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Araceli Carmona Cruz" } },
+                              [_vm._v("Araceli Carmona Cruz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Arantxa Aldana Hernández" } },
+                              [_vm._v("Arantxa Aldana Hernández")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Benito Medina Martínez" } },
+                              [_vm._v("Benito Medina Martínez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Inés Acosta Ortega" } },
+                              [_vm._v("Inés Acosta Ortega")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Claudia Rodríguez Rodríguez" },
+                              },
+                              [_vm._v("Claudia Rodríguez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Denisse Ortíz Hernández" } },
+                              [_vm._v("Denisse Ortíz Hernández")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Doroteo Rodríguez" } },
+                              [_vm._v("Doroteo Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Dr. Juan Martínez Rodríguez" },
+                              },
+                              [_vm._v("Dr. Juan Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gilberto Suárez Lozano" } },
+                              [_vm._v("Gilberto Suárez Lozano")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Guadalupe Huerta González" } },
+                              [_vm._v("Guadalupe Huerta González")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Guadalupe García Torres" } },
+                              [_vm._v("Guadalupe García Torres")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Guadalupe Martínez Rodríguez",
+                                },
+                              },
+                              [_vm._v("Guadalupe Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jazmin Barrera Ortega" } },
+                              [_vm._v("Jazmin Barrera Ortega")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jorge Vargas Vázquez" } },
+                              [_vm._v("Jorge Vargas Vázquez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Joselin A. Ortíz Chavarría" },
+                              },
+                              [_vm._v("Joselin A. Ortíz Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Daniel Flores Martínez" } },
+                              [_vm._v("Daniel Flores Martínez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Norma Leticia Sánchez Palma" },
+                              },
+                              [_vm._v("Norma Leticia Sánchez Palma")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Miguel Ángel Pérez Antonio" },
+                              },
+                              [_vm._v("Miguel Ángel Pérez Antonio")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Misael Ortíz Chavarría" } },
+                              [_vm._v("Misael Ortíz Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Nancy Marlene López Barrera" },
+                              },
+                              [_vm._v("Nancy Marlene López Barrera")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Pedro Martínez Reyes" } },
+                              [_vm._v("Pedro Martínez Reyes")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Olga" } }, [
+                              _vm._v("Olga"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Paola Hernández Hidalgo" } },
+                              [_vm._v("Paola Hernández Hidalgo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Patricia Ortíz Arenas" } },
+                              [_vm._v("Patricia Ortíz Arenas")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Josefa Martínez Sánchez" } },
+                              [_vm._v("Josefa Martínez Sánchez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Roberto Martínez Rodríguez" },
+                              },
+                              [_vm._v("Roberto Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Rocio Martínez Rodríguez" } },
+                              [_vm._v("Rocio Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Roque Chavarría Rodríguez" } },
+                              [_vm._v("Roque Chavarría Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Sandra Mauricio Najera" } },
+                              [_vm._v("Sandra Mauricio Najera")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Vicente Chavarría" } },
+                              [_vm._v("Vicente Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Xochitl Juárez" } },
+                              [_vm._v("Xochitl Juárez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Zaira Edith García Reyes" } },
+                              [_vm._v("Zaira Edith García Reyes")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Beatriz Martínez Velázquez" },
+                              },
+                              [_vm._v("Beatriz Martínez Velázquez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Velia López Gutiérrez" } },
+                              [_vm._v("Velia López Gutiérrez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Raúl Valdéz Duran" } },
+                              [_vm._v("Raúl Valdéz Duran")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Clemente Chavarría Díaz" } },
+                              [_vm._v("Clemente Chavarría Díaz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Sofia Martínez Rodriguez" } },
+                              [_vm._v("Sofia Martínez Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Erika Martínez Rodriguez" } },
+                              [_vm._v("Erika Martínez Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Juan Daniel Ramirez Castro" },
+                              },
+                              [_vm._v("Juan Daniel Ramirez Castro")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Aida Isidro Delgado" } },
+                              [_vm._v("Aida Isidro Delgado")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jessica Delgado" } },
+                              [_vm._v("Jessica Delgado")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Elizabeth Tafolla" } },
+                              [_vm._v("Elizabeth Tafolla")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Abigail Rodríguez" } },
+                              [_vm._v("Abigail Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Daniel Suarez" } },
+                              [_vm._v("Daniel Suarez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Citlali Sanchez" } },
+                              [_vm._v("Citlali Sanchez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Isela Martínez Rodríguez" } },
+                              [_vm._v("Isela Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Erick Alberto Muñoz Fernandez",
+                                },
+                              },
+                              [_vm._v("Erick Alberto Muñoz Fernandez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Ana Rosa Martínez Flores" } },
+                              [_vm._v("Ana Rosa Martínez Flores")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Claudia Velázquez Vázquez" } },
+                              [_vm._v("Claudia Velázquez Vázquez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Estela Rodríguez Galván" } },
+                              [_vm._v("Estela Rodríguez Galván")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Viridiana Molina Rodríguez" },
+                              },
+                              [_vm._v("Viridiana Molina Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Kitsia Rojas Diaz" } },
+                              [_vm._v("Kitsia Rojas Diaz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Carlos Antonio Hernández" } },
+                              [_vm._v("Carlos Antonio Hernández")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gabriel Chavarría" } },
+                              [_vm._v("Gabriel Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Alberto Rodríguez" } },
+                              [_vm._v("Alberto Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Julio Cesar Castañon" } },
+                              [_vm._v("Julio Cesar Castañon")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Saúl Sánchez" } }, [
+                              _vm._v("Saúl Sánchez"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Karina Rodriguez Chavarria" },
+                              },
+                              [_vm._v("Karina Rodriguez Chavarria")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Fabiola Jacome Hernández" } },
+                              [_vm._v("Fabiola Jacome Hernández")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Nicolás Pérez" } },
+                              [_vm._v("Nicolás Pérez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Remedios Rodriguez" } },
+                              [_vm._v("Remedios Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Grecia Samantha Jímenez Olivo",
+                                },
+                              },
+                              [_vm._v("Grecia Samantha Jímenez Olivo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Jessica Mitzi Rodriguez Ortiz",
+                                },
+                              },
+                              [_vm._v("Jessica Mitzi Rodriguez Ortiz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Alexia Chavarría Ortíz" } },
+                              [_vm._v("Alexia Chavarría Ortíz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Damaris Juárez Martínez" } },
+                              [_vm._v("Damaris Juárez Martínez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Karen Diaz Cruz" } },
+                              [_vm._v("Karen Diaz Cruz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Gregorio Rodríguez Martínez" },
+                              },
+                              [_vm._v("Gregorio Rodríguez Martínez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Juana Verónica Trujillo Cruz",
+                                },
+                              },
+                              [_vm._v("Juana Verónica Trujillo Cruz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Raquel Rivero Ortíz" } },
+                              [_vm._v("Raquel Rivero Ortíz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Maria Cristina Viveros" } },
+                              [_vm._v("Maria Cristina Viveros")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Luz María Piña Carrillo" } },
+                              [_vm._v("Luz María Piña Carrillo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jessica Velazquez Vega" } },
+                              [_vm._v("Jessica Velazquez Vega")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Fabiola Rodríguez Escobar" } },
+                              [_vm._v("Fabiola Rodríguez Escobar")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Fidel Rodriguez Escobar" } },
+                              [_vm._v("Fidel Rodriguez Escobar")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Marlen Rodriguez Reyes" } },
+                              [_vm._v("Marlen Rodriguez Reyes")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Edgar Bustamante Rodríguez" },
+                              },
+                              [_vm._v("Edgar Bustamante Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Janett Morales Chavarría" } },
+                              [_vm._v("Janett Morales Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Rosario Pichardo Olvera" } },
+                              [_vm._v("Rosario Pichardo Olvera")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Felipe Valente" } },
+                              [_vm._v("Felipe Valente")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Monserrat Ortíz" } },
+                              [_vm._v("Monserrat Ortíz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Bibliotecario" } },
+                              [_vm._v("Bibliotecario")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gisela Ramírez" } },
+                              [_vm._v("Gisela Ramírez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Monserrat Cruz Juárez" } },
+                              [_vm._v("Monserrat Cruz Juárez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gustavo Rodríguez" } },
+                              [_vm._v("Gustavo Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Oscar Cruz" } }, [
+                              _vm._v("Oscar Cruz"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Rangel Rivero" } },
+                              [_vm._v("Rangel Rivero")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Mario salazar" } },
+                              [_vm._v("Mario salazar")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Raquel Martinez" } },
+                              [_vm._v("Raquel Martinez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Esmeralda Jaqueline Hernandez Juarez",
+                                },
+                              },
+                              [_vm._v("Esmeralda Jaqueline Hernandez Juarez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Rocio Mauricio Ramírez" } },
+                              [_vm._v("Rocio Mauricio Ramírez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Victoriano Rodríguez" } },
+                              [_vm._v("Victoriano Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Roberto Rodríguez" } },
+                              [_vm._v("Roberto Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Kelly Cabrera" } },
+                              [_vm._v("Kelly Cabrera")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Nayeli Pardinez" } },
+                              [_vm._v("Nayeli Pardinez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Cruz Maria Piña" } },
+                              [_vm._v("Cruz Maria Piña")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Andrea Tellez" } },
+                              [_vm._v("Andrea Tellez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Tlepziba Jaanahi Villeda Barragan",
+                                },
+                              },
+                              [_vm._v("Tlepziba Jaanahi Villeda Barragan")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Amalia Ortiz" } }, [
+                              _vm._v("Amalia Ortiz"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Giovana Flores" } },
+                              [_vm._v("Giovana Flores")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Demetrio Ortiz" } },
+                              [_vm._v("Demetrio Ortiz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "David Rodriguez" } },
+                              [_vm._v("David Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Benito Molina" } },
+                              [_vm._v("Benito Molina")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Alondra Martinez" } },
+                              [_vm._v("Alondra Martinez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Vanessa Verastegui" } },
+                              [_vm._v("Vanessa Verastegui")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Tamaris Juarez" } },
+                              [_vm._v("Tamaris Juarez")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Yanet" } }, [
+                              _vm._v("Yanet"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Ericka" } }, [
+                              _vm._v("Ericka"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Fatima Estevez" } },
+                              [_vm._v("Fatima Estevez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Victoria Gonzalez" } },
+                              [_vm._v("Victoria Gonzalez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Ajax Rodriguez" } },
+                              [_vm._v("Ajax Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Colin Esmeralda Monroy" } },
+                              [_vm._v("Colin Esmeralda Monroy")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Juan Manuel Navarrete" } },
+                              [_vm._v("Juan Manuel Navarrete")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Yessica Rodriguez" } },
+                              [_vm._v("Yessica Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gabriel Santiago" } },
+                              [_vm._v("Gabriel Santiago")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Evelyn chavarria" } },
+                              [_vm._v("Evelyn Chavarria")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Abraham Molina" } },
+                              [_vm._v("Abraham Molina")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jose Salvador Rodriguez" } },
+                              [_vm._v("Jose Salvador Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Maria Guadalupe Santillan" } },
+                              [_vm._v("Maria Guadalupe Santillan")]
+                            ),
+                          ]
+                        ),
                       ]),
                     ]),
                   ]),
@@ -31730,25 +33003,33 @@ var render = function () {
                             },
                           },
                           [
-                            _c("option", { attrs: { value: "Bryan" } }, [
-                              _vm._v("Bryan"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Alberto" } }, [
-                              _vm._v("Alberto"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Gonzalo" } }, [
-                              _vm._v("Gonzalo"),
-                            ]),
+                            _c(
+                              "option",
+                              { attrs: { value: "Bryan Herrera" } },
+                              [_vm._v("Bryan Herrera")]
+                            ),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "Christian" } }, [
-                              _vm._v("Christian"),
+                              _vm._v("Christian Ruano"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Juan" } }, [
-                              _vm._v("Juan"),
-                            ]),
+                            _c(
+                              "option",
+                              { attrs: { value: "Dalia Martinez" } },
+                              [_vm._v("Dalia Martinez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Miguel Valles" } },
+                              [_vm._v("Miguel Valles")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Scarlett Adabell" } },
+                              [_vm._v("Scarlett Adabell")]
+                            ),
                           ]
                         ),
                       ]),
@@ -31758,31 +33039,386 @@ var render = function () {
                       _c("div", { staticClass: "form-group" }, [
                         _c("h4", [_vm._v("INFORMACION DEL REPORTE")]),
                         _vm._v(" "),
-                        _c("input", {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model",
-                              value: _vm.reporte.reporte,
-                              expression: "reporte.reporte",
-                            },
-                          ],
-                          staticClass: "form-control",
-                          attrs: { type: "text", id: "reporte" },
-                          domProps: { value: _vm.reporte.reporte },
-                          on: {
-                            input: function ($event) {
-                              if ($event.target.composing) {
-                                return
-                              }
-                              _vm.$set(
-                                _vm.reporte,
-                                "reporte",
-                                $event.target.value
-                              )
+                        _c(
+                          "select",
+                          {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.reporte.reporte,
+                                expression: "reporte.reporte",
+                              },
+                            ],
+                            staticClass: "form-control",
+                            attrs: { name: "reporte_id", id: "reporte_id" },
+                            on: {
+                              change: function ($event) {
+                                var $$selectedVal = Array.prototype.filter
+                                  .call($event.target.options, function (o) {
+                                    return o.selected
+                                  })
+                                  .map(function (o) {
+                                    var val = "_value" in o ? o._value : o.value
+                                    return val
+                                  })
+                                _vm.$set(
+                                  _vm.reporte,
+                                  "reporte",
+                                  $event.target.multiple
+                                    ? $$selectedVal
+                                    : $$selectedVal[0]
+                                )
+                              },
                             },
                           },
-                        }),
+                          [
+                            _c("option", { attrs: { value: "Antivirus" } }, [
+                              _vm._v("Antivirus"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Biométrico" } }, [
+                              _vm._v("Biométrico"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Cableado" } }, [
+                              _vm._v("Cableado"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Entrega de equipo" } },
+                              [_vm._v("Entrega de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Entrega de insumos" } },
+                              [_vm._v("Entrega de insumos")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Impresora" } }, [
+                              _vm._v("Impresora"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Instalación de equipo nuevo" },
+                              },
+                              [_vm._v("Instalación de equipo nuevo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Instalación de impresora" } },
+                              [_vm._v("Instalación de impresora")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Conectividad a Internet" } },
+                              [_vm._v("Conectividad a Internet")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Mantenimiento a computadora" },
+                              },
+                              [_vm._v("Mantenimiento a computadora")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Nodo de red" } }, [
+                              _vm._v("Nodo de red"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Paquetería" } }, [
+                              _vm._v("Paquetería"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Reubicación de equipo" } },
+                              [_vm._v("Reubicación de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Solicitud de equipo" } },
+                              [_vm._v("Solicitud de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Solicitud de accesorios" } },
+                              [_vm._v("Solicitud de accesorios")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Solicitud de perifericos" } },
+                              [_vm._v("Solicitud de perifericos")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Solicitud de insumos" } },
+                              [_vm._v("Solicitud de insumos")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Switch" } }, [
+                              _vm._v("Switch"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Copiadora" } }, [
+                              _vm._v("Copiadora"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Multifuncional" } },
+                              [_vm._v("Multifuncional")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Reemplazo de equipo" } },
+                              [_vm._v("Reemplazo de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Préstamo de equipo" } },
+                              [_vm._v("Préstamo de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Revisión de infraestructura" },
+                              },
+                              [_vm._v("Revisión de infraestructura")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Revisión de servicios" } },
+                              [_vm._v("Revisión de servicios")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Solicitud de mantenimiento" },
+                              },
+                              [_vm._v("Solicitud de mantenimiento")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Entrega e instalacion de tintas o tóner",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Entrega e instalacion de tintas o tóner"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Canaleta y cajas externas para nodos",
+                                },
+                              },
+                              [_vm._v("Canaleta y cajas externas para nodos")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Respaldo de información" } },
+                              [_vm._v("Respaldo de información")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Bloqueo de redes sociales" } },
+                              [_vm._v("Bloqueo de redes sociales")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Desinstalación e instalación de software",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Desinstalación e instalación de software"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Scanner" } }, [
+                              _vm._v("Scanner"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Análisis de memoria" } },
+                              [_vm._v("Análisis de memoria")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Asistencia" } }, [
+                              _vm._v("Asistencia"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Mantenimiento de software de paquetería",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Mantenimiento de software de paquetería"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Instalación y configuración de router",
+                                },
+                              },
+                              [_vm._v("Instalación y configuración de router")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Mantenimiento de software - sistema operativo",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Mantenimiento de software - sistema operativo"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Configuración para impresión en recurso compartido ",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Configuración para impresión en recurso compartido "
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Recorrido general" } },
+                              [_vm._v("Recorrido general")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Servicio Técnico-Mantenimiento físico",
+                                },
+                              },
+                              [_vm._v("Servicio Técnico-Mantenimiento físico")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Entrega de carta" } },
+                              [_vm._v("Entrega de carta")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Reseteo de acceso de equipo" },
+                              },
+                              [_vm._v("Reseteo de acceso de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Instalación de tuberia tipo conduit",
+                                },
+                              },
+                              [_vm._v("Instalación de tuberia tipo conduit")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Suministro e instalación de cableado UTP",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Suministro e instalación de cableado UTP"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Niveles de tinta" } },
+                              [_vm._v("Niveles de tinta")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Licencias" } }, [
+                              _vm._v("Licencias"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Suministro e instalación de nodo de red",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Suministro e instalación de nodo de red"
+                                ),
+                              ]
+                            ),
+                          ]
+                        ),
                       ]),
                     ]),
                     _vm._v(" "),
@@ -32042,69 +33678,189 @@ var render = function () {
                               [_vm._v("Choose here")]
                             ),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Tesoreria" } }, [
-                              _vm._v("Tesoreria"),
-                            ]),
+                            _c(
+                              "option",
+                              { attrs: { value: "Administración" } },
+                              [_vm._v("Administración")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Agua Potable, Drenaje Y Alcantarillado",
+                                },
+                              },
+                              [_vm._v("Agua Potable, Drenaje Y Alcantarillado")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Anticorrupción" } },
+                              [_vm._v("Anticorrupción")]
+                            ),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "Contraloria" } }, [
                               _vm._v("Contraloria"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "SeguridadP" } }, [
-                              _vm._v("Seguridad publica"),
+                            _c("option", { attrs: { value: "Catastro" } }, [
+                              _vm._v("Catastro"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Archivo Municipal" } },
+                              [_vm._v("Archivo Municipal")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Biblioteca" } }, [
+                              _vm._v("Biblioteca"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Biblioteca Digital" } },
+                              [_vm._v("Biblioteca Digital")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Desarrollo y Bienestar Social",
+                                },
+                              },
+                              [_vm._v("Desarrollo y Bienestar Social")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Derechos Humanos" } },
+                              [_vm._v("Derechos Humanos")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Desarrollo Urbano" } },
+                              [_vm._v("Desarrollo Urbano")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "DIF" } }, [
+                              _vm._v("DIF"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Ecología y Medio Ambiente" } },
+                              [_vm._v("Ecología y Medio Ambiente")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Educación y Cultura" } },
+                              [_vm._v("Educación y Cultura")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "IMCUFIDET" } }, [
+                              _vm._v("IMCUFIDET"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Juridico" } }, [
+                              _vm._v("Jurídico"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Obras Publicas" } },
+                              [_vm._v("Obras Publicas")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Oficialia" } }, [
+                              _vm._v("Oficialia Calificadora"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Bomberos" } }, [
+                              _vm._v("Protección Civil y Bomberos"),
                             ]),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "Presidencia" } }, [
                               _vm._v("Presidencia"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "ObrasP" } }, [
-                              _vm._v("Obras Publicas"),
+                            _c(
+                              "option",
+                              { attrs: { value: "Salud Municipal" } },
+                              [_vm._v("Salud Municipal")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Secretaria del Ayuntamiento" },
+                              },
+                              [_vm._v("Secretaria del Ayuntamiento")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Secretaria Técnica" } },
+                              [
+                                _vm._v(
+                                  "Secretaria Técnica de Seguridad Publica"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Seguridad Publica" } },
+                              [_vm._v("Seguridad publica")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Servicios Publicos" } },
+                              [_vm._v("Servicios Publicos")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Sindicatura" } }, [
+                              _vm._v("Sindicatura"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Cultura" } }, [
-                              _vm._v("Cultura"),
+                            _c("option", { attrs: { value: "Tesoreria" } }, [
+                              _vm._v("Tesoreria"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Biblioteca" } }, [
-                              _vm._v("Biblioteca"),
+                            _c("option", { attrs: { value: "Regiduria" } }, [
+                              _vm._v("Regidurias"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "BibliotecaD" } }, [
-                              _vm._v("Biblioteca Digital"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "ServiciosP" } }, [
-                              _vm._v("Servicios Publicos"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "AguaPDA" } }, [
-                              _vm._v("Agua Potable, Drenaje Y Alcantarillado"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Bomberos" } }, [
-                              _vm._v("Bomberos"),
-                            ]),
+                            _c(
+                              "option",
+                              { attrs: { value: "Registro Civil" } },
+                              [_vm._v("Registro Civil")]
+                            ),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "UIPPE" } }, [
                               _vm._v("UIPPE"),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "ServiciosP" } }, [
-                              _vm._v("Servicios Publicos"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Oficialia" } }, [
-                              _vm._v("Oficialia Calificadora"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Regiduria" } }, [
-                              _vm._v("Regiduria"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Sindicatura" } }, [
-                              _vm._v("Sindicatura"),
-                            ]),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Unidad de Transparencia/Consulta Ciudadana",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Unidad de Transparencia/Consulta Ciudadana"
+                                ),
+                              ]
+                            ),
                           ]
                         ),
                       ]),
@@ -32114,31 +33870,809 @@ var render = function () {
                       _c("div", { staticClass: "form-group" }, [
                         _c("h4", [_vm._v("NOMBRE DEL CLIENTE ")]),
                         _vm._v(" "),
-                        _c("input", {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model",
-                              value: _vm.reporte.nombre_cliente,
-                              expression: "reporte.nombre_cliente",
-                            },
-                          ],
-                          staticClass: "form-control",
-                          attrs: { type: "text", id: "nombre_cliente" },
-                          domProps: { value: _vm.reporte.nombre_cliente },
-                          on: {
-                            input: function ($event) {
-                              if ($event.target.composing) {
-                                return
-                              }
-                              _vm.$set(
-                                _vm.reporte,
-                                "nombre_cliente",
-                                $event.target.value
-                              )
+                        _c(
+                          "select",
+                          {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.reporte.nombre_cliente,
+                                expression: "reporte.nombre_cliente",
+                              },
+                            ],
+                            staticClass: "form-control",
+                            attrs: { name: "cliente_id", id: "nombre_cliente" },
+                            on: {
+                              change: function ($event) {
+                                var $$selectedVal = Array.prototype.filter
+                                  .call($event.target.options, function (o) {
+                                    return o.selected
+                                  })
+                                  .map(function (o) {
+                                    var val = "_value" in o ? o._value : o.value
+                                    return val
+                                  })
+                                _vm.$set(
+                                  _vm.reporte,
+                                  "nombre_cliente",
+                                  $event.target.multiple
+                                    ? $$selectedVal
+                                    : $$selectedVal[0]
+                                )
+                              },
                             },
                           },
-                        }),
+                          [
+                            _c(
+                              "option",
+                              { attrs: { value: "Alexandra López Mauricio" } },
+                              [_vm._v("Alexandra López Mauricio")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Angel Rivas" } }, [
+                              _vm._v("Angel Rivas"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Ángeles Chavarría Rodríguez" },
+                              },
+                              [_vm._v("Ángeles Chavarría Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Araceli Carmona Cruz" } },
+                              [_vm._v("Araceli Carmona Cruz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Arantxa Aldana Hernández" } },
+                              [_vm._v("Arantxa Aldana Hernández")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Benito Medina Martínez" } },
+                              [_vm._v("Benito Medina Martínez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Inés Acosta Ortega" } },
+                              [_vm._v("Inés Acosta Ortega")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Claudia Rodríguez Rodríguez" },
+                              },
+                              [_vm._v("Claudia Rodríguez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Denisse Ortíz Hernández" } },
+                              [_vm._v("Denisse Ortíz Hernández")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Doroteo Rodríguez" } },
+                              [_vm._v("Doroteo Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Dr. Juan Martínez Rodríguez" },
+                              },
+                              [_vm._v("Dr. Juan Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gilberto Suárez Lozano" } },
+                              [_vm._v("Gilberto Suárez Lozano")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Guadalupe Huerta González" } },
+                              [_vm._v("Guadalupe Huerta González")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Guadalupe García Torres" } },
+                              [_vm._v("Guadalupe García Torres")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Guadalupe Martínez Rodríguez",
+                                },
+                              },
+                              [_vm._v("Guadalupe Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jazmin Barrera Ortega" } },
+                              [_vm._v("Jazmin Barrera Ortega")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jorge Vargas Vázquez" } },
+                              [_vm._v("Jorge Vargas Vázquez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Joselin A. Ortíz Chavarría" },
+                              },
+                              [_vm._v("Joselin A. Ortíz Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Daniel Flores Martínez" } },
+                              [_vm._v("Daniel Flores Martínez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Norma Leticia Sánchez Palma" },
+                              },
+                              [_vm._v("Norma Leticia Sánchez Palma")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Miguel Ángel Pérez Antonio" },
+                              },
+                              [_vm._v("Miguel Ángel Pérez Antonio")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Misael Ortíz Chavarría" } },
+                              [_vm._v("Misael Ortíz Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Nancy Marlene López Barrera" },
+                              },
+                              [_vm._v("Nancy Marlene López Barrera")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Pedro Martínez Reyes" } },
+                              [_vm._v("Pedro Martínez Reyes")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Olga" } }, [
+                              _vm._v("Olga"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Paola Hernández Hidalgo" } },
+                              [_vm._v("Paola Hernández Hidalgo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Patricia Ortíz Arenas" } },
+                              [_vm._v("Patricia Ortíz Arenas")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Josefa Martínez Sánchez" } },
+                              [_vm._v("Josefa Martínez Sánchez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Roberto Martínez Rodríguez" },
+                              },
+                              [_vm._v("Roberto Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Rocio Martínez Rodríguez" } },
+                              [_vm._v("Rocio Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Roque Chavarría Rodríguez" } },
+                              [_vm._v("Roque Chavarría Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Sandra Mauricio Najera" } },
+                              [_vm._v("Sandra Mauricio Najera")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Vicente Chavarría" } },
+                              [_vm._v("Vicente Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Xochitl Juárez" } },
+                              [_vm._v("Xochitl Juárez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Zaira Edith García Reyes" } },
+                              [_vm._v("Zaira Edith García Reyes")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Beatriz Martínez Velázquez" },
+                              },
+                              [_vm._v("Beatriz Martínez Velázquez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Velia López Gutiérrez" } },
+                              [_vm._v("Velia López Gutiérrez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Raúl Valdéz Duran" } },
+                              [_vm._v("Raúl Valdéz Duran")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Clemente Chavarría Díaz" } },
+                              [_vm._v("Clemente Chavarría Díaz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Sofia Martínez Rodriguez" } },
+                              [_vm._v("Sofia Martínez Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Erika Martínez Rodriguez" } },
+                              [_vm._v("Erika Martínez Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Juan Daniel Ramirez Castro" },
+                              },
+                              [_vm._v("Juan Daniel Ramirez Castro")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Aida Isidro Delgado" } },
+                              [_vm._v("Aida Isidro Delgado")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jessica Delgado" } },
+                              [_vm._v("Jessica Delgado")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Elizabeth Tafolla" } },
+                              [_vm._v("Elizabeth Tafolla")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Abigail Rodríguez" } },
+                              [_vm._v("Abigail Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Daniel Suarez" } },
+                              [_vm._v("Daniel Suarez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Citlali Sanchez" } },
+                              [_vm._v("Citlali Sanchez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Isela Martínez Rodríguez" } },
+                              [_vm._v("Isela Martínez Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Erick Alberto Muñoz Fernandez",
+                                },
+                              },
+                              [_vm._v("Erick Alberto Muñoz Fernandez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Ana Rosa Martínez Flores" } },
+                              [_vm._v("Ana Rosa Martínez Flores")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Claudia Velázquez Vázquez" } },
+                              [_vm._v("Claudia Velázquez Vázquez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Estela Rodríguez Galván" } },
+                              [_vm._v("Estela Rodríguez Galván")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Viridiana Molina Rodríguez" },
+                              },
+                              [_vm._v("Viridiana Molina Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Kitsia Rojas Diaz" } },
+                              [_vm._v("Kitsia Rojas Diaz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Carlos Antonio Hernández" } },
+                              [_vm._v("Carlos Antonio Hernández")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gabriel Chavarría" } },
+                              [_vm._v("Gabriel Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Alberto Rodríguez" } },
+                              [_vm._v("Alberto Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Julio Cesar Castañon" } },
+                              [_vm._v("Julio Cesar Castañon")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Saúl Sánchez" } }, [
+                              _vm._v("Saúl Sánchez"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Karina Rodriguez Chavarria" },
+                              },
+                              [_vm._v("Karina Rodriguez Chavarria")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Fabiola Jacome Hernández" } },
+                              [_vm._v("Fabiola Jacome Hernández")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Nicolás Pérez" } },
+                              [_vm._v("Nicolás Pérez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Remedios Rodriguez" } },
+                              [_vm._v("Remedios Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Grecia Samantha Jímenez Olivo",
+                                },
+                              },
+                              [_vm._v("Grecia Samantha Jímenez Olivo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Jessica Mitzi Rodriguez Ortiz",
+                                },
+                              },
+                              [_vm._v("Jessica Mitzi Rodriguez Ortiz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Alexia Chavarría Ortíz" } },
+                              [_vm._v("Alexia Chavarría Ortíz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Damaris Juárez Martínez" } },
+                              [_vm._v("Damaris Juárez Martínez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Karen Diaz Cruz" } },
+                              [_vm._v("Karen Diaz Cruz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Gregorio Rodríguez Martínez" },
+                              },
+                              [_vm._v("Gregorio Rodríguez Martínez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Juana Verónica Trujillo Cruz",
+                                },
+                              },
+                              [_vm._v("Juana Verónica Trujillo Cruz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Raquel Rivero Ortíz" } },
+                              [_vm._v("Raquel Rivero Ortíz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Maria Cristina Viveros" } },
+                              [_vm._v("Maria Cristina Viveros")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Luz María Piña Carrillo" } },
+                              [_vm._v("Luz María Piña Carrillo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jessica Velazquez Vega" } },
+                              [_vm._v("Jessica Velazquez Vega")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Fabiola Rodríguez Escobar" } },
+                              [_vm._v("Fabiola Rodríguez Escobar")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Fidel Rodriguez Escobar" } },
+                              [_vm._v("Fidel Rodriguez Escobar")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Marlen Rodriguez Reyes" } },
+                              [_vm._v("Marlen Rodriguez Reyes")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Edgar Bustamante Rodríguez" },
+                              },
+                              [_vm._v("Edgar Bustamante Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Janett Morales Chavarría" } },
+                              [_vm._v("Janett Morales Chavarría")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Rosario Pichardo Olvera" } },
+                              [_vm._v("Rosario Pichardo Olvera")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Felipe Valente" } },
+                              [_vm._v("Felipe Valente")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Monserrat Ortíz" } },
+                              [_vm._v("Monserrat Ortíz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Bibliotecario" } },
+                              [_vm._v("Bibliotecario")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gisela Ramírez" } },
+                              [_vm._v("Gisela Ramírez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Monserrat Cruz Juárez" } },
+                              [_vm._v("Monserrat Cruz Juárez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gustavo Rodríguez" } },
+                              [_vm._v("Gustavo Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Oscar Cruz" } }, [
+                              _vm._v("Oscar Cruz"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Rangel Rivero" } },
+                              [_vm._v("Rangel Rivero")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Mario salazar" } },
+                              [_vm._v("Mario salazar")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Raquel Martinez" } },
+                              [_vm._v("Raquel Martinez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Esmeralda Jaqueline Hernandez Juarez",
+                                },
+                              },
+                              [_vm._v("Esmeralda Jaqueline Hernandez Juarez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Rocio Mauricio Ramírez" } },
+                              [_vm._v("Rocio Mauricio Ramírez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Victoriano Rodríguez" } },
+                              [_vm._v("Victoriano Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Roberto Rodríguez" } },
+                              [_vm._v("Roberto Rodríguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Kelly Cabrera" } },
+                              [_vm._v("Kelly Cabrera")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Nayeli Pardinez" } },
+                              [_vm._v("Nayeli Pardinez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Cruz Maria Piña" } },
+                              [_vm._v("Cruz Maria Piña")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Andrea Tellez" } },
+                              [_vm._v("Andrea Tellez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Tlepziba Jaanahi Villeda Barragan",
+                                },
+                              },
+                              [_vm._v("Tlepziba Jaanahi Villeda Barragan")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Amalia Ortiz" } }, [
+                              _vm._v("Amalia Ortiz"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Giovana Flores" } },
+                              [_vm._v("Giovana Flores")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Demetrio Ortiz" } },
+                              [_vm._v("Demetrio Ortiz")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "David Rodriguez" } },
+                              [_vm._v("David Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Benito Molina" } },
+                              [_vm._v("Benito Molina")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Alondra Martinez" } },
+                              [_vm._v("Alondra Martinez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Vanessa Verastegui" } },
+                              [_vm._v("Vanessa Verastegui")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Tamaris Juarez" } },
+                              [_vm._v("Tamaris Juarez")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Yanet" } }, [
+                              _vm._v("Yanet"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Ericka" } }, [
+                              _vm._v("Ericka"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Fatima Estevez" } },
+                              [_vm._v("Fatima Estevez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Victoria Gonzalez" } },
+                              [_vm._v("Victoria Gonzalez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Ajax Rodriguez" } },
+                              [_vm._v("Ajax Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Colin Esmeralda Monroy" } },
+                              [_vm._v("Colin Esmeralda Monroy")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Juan Manuel Navarrete" } },
+                              [_vm._v("Juan Manuel Navarrete")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Yessica Rodriguez" } },
+                              [_vm._v("Yessica Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Gabriel Santiago" } },
+                              [_vm._v("Gabriel Santiago")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Evelyn chavarria" } },
+                              [_vm._v("Evelyn Chavarria")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Abraham Molina" } },
+                              [_vm._v("Abraham Molina")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Jose Salvador Rodriguez" } },
+                              [_vm._v("Jose Salvador Rodriguez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Maria Guadalupe Santillan" } },
+                              [_vm._v("Maria Guadalupe Santillan")]
+                            ),
+                          ]
+                        ),
                       ]),
                     ]),
                   ]),
@@ -32182,21 +34716,33 @@ var render = function () {
                             },
                           },
                           [
-                            _c("option", { attrs: { value: "Bryan" } }, [
-                              _vm._v("Bryan"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Alberto" } }, [
-                              _vm._v("Alberto"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "Gonzalo" } }, [
-                              _vm._v("Gonzalo"),
-                            ]),
+                            _c(
+                              "option",
+                              { attrs: { value: "Bryan Herrera" } },
+                              [_vm._v("Bryan Herrera")]
+                            ),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "Christian" } }, [
-                              _vm._v("Christian"),
+                              _vm._v("Christian Ruano"),
                             ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Dalia Martinez" } },
+                              [_vm._v("Dalia Martinez")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Miguel Valles" } },
+                              [_vm._v("Miguel Valles")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Scarlett Adabell" } },
+                              [_vm._v("Scarlett Adabell")]
+                            ),
                           ]
                         ),
                       ]),
@@ -32206,31 +34752,386 @@ var render = function () {
                       _c("div", { staticClass: "form-group" }, [
                         _c("h4", [_vm._v("INFORMACION DEL REPORTE")]),
                         _vm._v(" "),
-                        _c("input", {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model",
-                              value: _vm.reporte.reporte,
-                              expression: "reporte.reporte",
-                            },
-                          ],
-                          staticClass: "form-control",
-                          attrs: { type: "text", id: "reporte" },
-                          domProps: { value: _vm.reporte.reporte },
-                          on: {
-                            input: function ($event) {
-                              if ($event.target.composing) {
-                                return
-                              }
-                              _vm.$set(
-                                _vm.reporte,
-                                "reporte",
-                                $event.target.value
-                              )
+                        _c(
+                          "select",
+                          {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.reporte.reporte,
+                                expression: "reporte.reporte",
+                              },
+                            ],
+                            staticClass: "form-control",
+                            attrs: { name: "reporte_id", id: "reporte_id" },
+                            on: {
+                              change: function ($event) {
+                                var $$selectedVal = Array.prototype.filter
+                                  .call($event.target.options, function (o) {
+                                    return o.selected
+                                  })
+                                  .map(function (o) {
+                                    var val = "_value" in o ? o._value : o.value
+                                    return val
+                                  })
+                                _vm.$set(
+                                  _vm.reporte,
+                                  "reporte",
+                                  $event.target.multiple
+                                    ? $$selectedVal
+                                    : $$selectedVal[0]
+                                )
+                              },
                             },
                           },
-                        }),
+                          [
+                            _c("option", { attrs: { value: "Antivirus" } }, [
+                              _vm._v("Antivirus"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Biométrico" } }, [
+                              _vm._v("Biométrico"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Cableado" } }, [
+                              _vm._v("Cableado"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Entrega de equipo" } },
+                              [_vm._v("Entrega de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Entrega de insumos" } },
+                              [_vm._v("Entrega de insumos")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Impresora" } }, [
+                              _vm._v("Impresora"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Instalación de equipo nuevo" },
+                              },
+                              [_vm._v("Instalación de equipo nuevo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Instalación de impresora" } },
+                              [_vm._v("Instalación de impresora")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Conectividad a Internet" } },
+                              [_vm._v("Conectividad a Internet")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Mantenimiento a computadora" },
+                              },
+                              [_vm._v("Mantenimiento a computadora")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Nodo de red" } }, [
+                              _vm._v("Nodo de red"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Paquetería" } }, [
+                              _vm._v("Paquetería"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Reubicación de equipo" } },
+                              [_vm._v("Reubicación de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Solicitud de equipo" } },
+                              [_vm._v("Solicitud de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Solicitud de accesorios" } },
+                              [_vm._v("Solicitud de accesorios")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Solicitud de perifericos" } },
+                              [_vm._v("Solicitud de perifericos")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Solicitud de insumos" } },
+                              [_vm._v("Solicitud de insumos")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Switch" } }, [
+                              _vm._v("Switch"),
+                            ]),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Copiadora" } }, [
+                              _vm._v("Copiadora"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Multifuncional" } },
+                              [_vm._v("Multifuncional")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Reemplazo de equipo" } },
+                              [_vm._v("Reemplazo de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Préstamo de equipo" } },
+                              [_vm._v("Préstamo de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Revisión de infraestructura" },
+                              },
+                              [_vm._v("Revisión de infraestructura")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Revisión de servicios" } },
+                              [_vm._v("Revisión de servicios")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Solicitud de mantenimiento" },
+                              },
+                              [_vm._v("Solicitud de mantenimiento")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Entrega e instalacion de tintas o tóner",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Entrega e instalacion de tintas o tóner"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Canaleta y cajas externas para nodos",
+                                },
+                              },
+                              [_vm._v("Canaleta y cajas externas para nodos")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Respaldo de información" } },
+                              [_vm._v("Respaldo de información")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Bloqueo de redes sociales" } },
+                              [_vm._v("Bloqueo de redes sociales")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Desinstalación e instalación de software",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Desinstalación e instalación de software"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Scanner" } }, [
+                              _vm._v("Scanner"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Análisis de memoria" } },
+                              [_vm._v("Análisis de memoria")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Asistencia" } }, [
+                              _vm._v("Asistencia"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Mantenimiento de software de paquetería",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Mantenimiento de software de paquetería"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Instalación y configuración de router",
+                                },
+                              },
+                              [_vm._v("Instalación y configuración de router")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Mantenimiento de software - sistema operativo",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Mantenimiento de software - sistema operativo"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Configuración para impresión en recurso compartido ",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Configuración para impresión en recurso compartido "
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Recorrido general" } },
+                              [_vm._v("Recorrido general")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Servicio Técnico-Mantenimiento físico",
+                                },
+                              },
+                              [_vm._v("Servicio Técnico-Mantenimiento físico")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Entrega de carta" } },
+                              [_vm._v("Entrega de carta")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: { value: "Reseteo de acceso de equipo" },
+                              },
+                              [_vm._v("Reseteo de acceso de equipo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value: "Instalación de tuberia tipo conduit",
+                                },
+                              },
+                              [_vm._v("Instalación de tuberia tipo conduit")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Suministro e instalación de cableado UTP",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Suministro e instalación de cableado UTP"
+                                ),
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              { attrs: { value: "Niveles de tinta" } },
+                              [_vm._v("Niveles de tinta")]
+                            ),
+                            _vm._v(" "),
+                            _c("option", { attrs: { value: "Licencias" } }, [
+                              _vm._v("Licencias"),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "option",
+                              {
+                                attrs: {
+                                  value:
+                                    "Suministro e instalación de nodo de red",
+                                },
+                              },
+                              [
+                                _vm._v(
+                                  "Suministro e instalación de nodo de red"
+                                ),
+                              ]
+                            ),
+                          ]
+                        ),
                       ]),
                     ]),
                     _vm._v(" "),

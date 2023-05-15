@@ -6734,6 +6734,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
@@ -31643,9 +31644,9 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row justify-content" }, [
-        _c("div", { staticClass: "col-md-14" }, [
+    _c("div", {}, [
+      _c("div", {}, [
+        _c("div", {}, [
           _vm._m(0),
           _vm._v(" "),
           _c(
@@ -35295,7 +35296,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container py-2" }, [
+    return _c("div", {}, [
       _c("ul", {
         staticClass: "list-group",
         attrs: { id: "showlist", tabindex: "1" },

@@ -1,10 +1,10 @@
 <template>
 <div>
 
-    <div class="container-fluid">
-        <div class="row justify-content">
-            <div class="col-md-14">
-              <div class="container py-2">
+    <div class="">
+        <div class="">
+            <div class="">
+              <div class="">
                
                 <ul id="showlist" tabindex='1' class="list-group"></ul>
                              
@@ -23,7 +23,8 @@
 
 
 
-          <table class="table table-responsive sm-0" >
+          <table  class="table table-responsive sm-0">
+            
                           
                 <!--<thead class="thead-dark"> -->
                   <tr>

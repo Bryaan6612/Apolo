@@ -80,13 +80,13 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                     <a class="nav-link" href="{{ route('home') }}">
-                        <i class="ni ni-tv-2 text-primary"></i> {{ __('Inicio') }}
+                        <i class="ni ni-collection text-blue"></i>
+                        <span class="nav-link-text" >Inicio</span>
                     </a>
                 </li>
                
 
-                    <div class="collapse show" id="navbar-examples">
-                        <ul class="nav nav-sm flex-column">
+                  
                            
 
                 <!--<li class="nav-item">
@@ -95,14 +95,14 @@
                     </a>
                 </li>-->
                
-                @can('clientes', Auth::User())
+               <!--@can('clientes', Auth::User())
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('m_clientes') }}">
                       <i class="ni ni-badge text-red"></i>
                       <span class="nav-link-text">Clientes</span>
                     </a>
                 </li> 
-                @endcan
+                @endcan-->
 
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('m_reportes') }}">
@@ -110,20 +110,20 @@
                       <span class="nav-link-text" >Reportes</span>
                     </a>
                 </li>
-                <li class="nav-item">
+               <!-- <li class="nav-item">
                     <a class="nav-link" href="{{ route('m_venta') }}">
                       <i class="ni ni-shop text-cyan"></i>
                       <span class="nav-link-text"> Ventas</span>
                     </a>
-                </li>
+                </li>-->
                 
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <a class="nav-link" href="{{ route('m_detalleventa') }}">
                     <i class="ni ni-money-coins text-green"></i>
                       <span class="nav-link-text">Detalle de venta</span>
                     </a>
                 </li>
-                <!--<li class="nav-item">
+                < <li class="nav-item">
                     <a class="nav-link" href="{{ route('m_areas') }}">
                     <i class="ni ni-pin-3 text-cyan"></i>
                       <span class="nav-link-text">Areas</span>

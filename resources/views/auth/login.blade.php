@@ -12,7 +12,7 @@
                             <small>
                                     Inicia sesion para poder acceder al panel de control:
                                     <br>
-                                    Ejemplo: Usuario <strong>admin@gmail/hotmail.com</strong> Contraseña: <strong>****************</strong>
+                                    Ejemplo: Usuario <strong>admin@gmail/hermesc.com</strong> Contraseña: <strong>*********</strong>
                             </small>
                         </div>
                         <form role="form" method="POST" action="{{ route('login') }}">

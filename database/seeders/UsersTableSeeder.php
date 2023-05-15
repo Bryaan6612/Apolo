@@ -16,27 +16,90 @@ class UsersTableSeeder extends Seeder
     {
         DB::table('users')->insert([
             'name' => 'Bryan Herrera',
-            'email' => 'bryan@gmail.com',
+            'email' => 'b.herrera@hermesc.com',
             'email_verified_at' => now(),
             'password' => Hash::make('secret'),
             'admin' => true,
             'created_at' => now(),
             'updated_at' => now()
         ]);
+
         DB::table('users')->insert([
-            'name' => 'Gonzalo Cardenas',
-            'email' => 'gonza@gmail.com',
+            'name' => 'Miguel Valles',
+            'email' => 'miguelv@hermesc.com',
             'email_verified_at' => now(),
-            'password' => Hash::make('1234'),
-            'admin' => false,
+            'password' => Hash::make('secret'),
+            'admin' => true,
             'created_at' => now(),
             'updated_at' => now()
         ]);
+
+        DB::table('users')->insert([
+            'name' => 'Juan Arriola',
+            'email' => 'juan.am@hermesc.com',
+            'email_verified_at' => now(),
+            'password' => Hash::make('secret'),
+            'admin' => true,
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Dalia Martinez',
+            'email' => 'daliam@hermesc.com',
+            'email_verified_at' => now(),
+            'password' => Hash::make('secret'),
+            'admin' => true,
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);
+    
         DB::table('users')->insert([
             'name' => 'Ana Martinez',
-            'email' => 'ana@gmail.com',
+            'email' => 'anam@hermesc.com',
             'email_verified_at' => now(),
             'password' => Hash::make('1234'),
+            'admin' => true,
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Soporte1',
+            'email' => 'soporte1@hermesc.com',
+            'email_verified_at' => now(),
+            'password' => Hash::make('secret'),
+            'admin' => true,
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Soporte2',
+            'email' => 'soporte2@hermesc.com',
+            'email_verified_at' => now(),
+            'password' => Hash::make('secret'),
+            'admin' => true,
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Soporte3',
+            'email' => 'soporte3@hermesc.com',
+            'email_verified_at' => now(),
+            'password' => Hash::make('secret'),
+            'admin' => true,
+            'created_at' => now(),
+            'updated_at' => now()
+        ]);
+
+        DB::table('users')->insert([
+            'name' => 'Soporte4',
+            'email' => 'soporte4@hermesc.com',
+            'email_verified_at' => now(),
+            'password' => Hash::make('secret'),
+            'admin' => true,
             'created_at' => now(),
             'updated_at' => now()
         ]);
